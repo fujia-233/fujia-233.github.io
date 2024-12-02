@@ -1,2 +1,2 @@
-http://example.com/2024/12/01/hello-world/
+http://example.com/2024/12/02/hello-world/
 http://example.com/
