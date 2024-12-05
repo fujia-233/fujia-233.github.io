@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/12/04/Nginx/</loc>
+    <loc>http://example.com/album/index.html</loc>
     
     <lastmod>2024-12-05</lastmod>
     
@@ -11,45 +11,54 @@
   </url>
   
   <url>
-    <loc>http://example.com/json/album.json</loc>
-    
-    <lastmod>2024-12-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/essay/index.html</loc>
     
-    <lastmod>2024-12-04</lastmod>
+    <lastmod>2024-12-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/wordScenery/index.html</loc>
+    <loc>http://example.com/cosPhone/index.html</loc>
     
-    <lastmod>2024-12-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/dailyPhoto/index.html</loc>
-    
-    <lastmod>2024-12-04</lastmod>
+    <lastmod>2024-12-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/album/index.html</loc>
+    <loc>http://example.com/travelPhone/index.html</loc>
     
-    <lastmod>2024-12-04</lastmod>
+    <lastmod>2024-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/studyPhone/index.html</loc>
+    
+    <lastmod>2024-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/dailyPhone/index.html</loc>
+    
+    <lastmod>2024-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2024/12/04/Nginx/</loc>
+    
+    <lastmod>2024-12-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
