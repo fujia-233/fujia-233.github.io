@@ -1,3 +1,4 @@
+http://example.com/2024/12/04/Nginx/
 http://example.com/json/album.json
 http://example.com/essay/index.html
 http://example.com/wordScenery/index.html
@@ -8,7 +9,6 @@ http://example.com/json/music.json
 http://example.com/about/index.html
 http://example.com/music/index.html
 http://example.com/2024/12/03/hello-world/
-http://example.com/2024/12/04/Nginx/
 http://example.com/2024/12/04/Java%E5%9F%BA%E7%A1%80/
 http://example.com/categories/index.html
 http://example.com/tags/index.html
@@ -16,9 +16,9 @@ http://example.com/
 http://example.com/tags/Typora/
 http://example.com/tags/%E6%8A%80%E6%9C%AF/
 http://example.com/tags/Java/
+http://example.com/tags/Nginx/
 http://example.com/tags/Hello/
 http://example.com/tags/FuJia/
-http://example.com/tags/Nginx/
 http://example.com/categories/Java/
-http://example.com/categories/%E6%B5%8B%E8%AF%95/
 http://example.com/categories/Nginx/
+http://example.com/categories/%E6%B5%8B%E8%AF%95/
