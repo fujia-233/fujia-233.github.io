@@ -1,0 +1,695 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>格记--引导型开放日记 | 附加</title><meta name="keywords" content="Java,作业,Web,日记"><meta name="author" content="附加"><meta name="copyright" content="附加"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="格记--引导型开放日记"><meta name="application-name" content="格记--引导型开放日记"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="格记--引导型开放日记"><meta property="og:url" content="http://example.com/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/index.html"><meta property="og:site_name" content="附加"><meta property="og:description" content="格记–引导型开放日记一、设计任务与要求1.1 设计背景​		如今随着信息技术的快速发展和广泛应用，人们对于个人生活记录和管理的需求日益增长，使得更便捷的个人日记本系统成为当下迫切需要的服务。传统的纸质日记本或简单的移动设备已无法满足当代人们对于便捷性、安全性和高效性的需求。设计并开发一款基于SSM框"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://www.helloimg.com/i/2024/12/11/675981fc1fbab.jpg"><meta property="article:author" content="附加"><meta property="article:tag" content="java 雅思 英语"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://www.helloimg.com/i/2024/12/11/675981fc1fbab.jpg"><meta name="description" content="格记–引导型开放日记一、设计任务与要求1.1 设计背景​		如今随着信息技术的快速发展和广泛应用，人们对于个人生活记录和管理的需求日益增长，使得更便捷的个人日记本系统成为当下迫切需要的服务。传统的纸质日记本或简单的移动设备已无法满足当代人们对于便捷性、安全性和高效性的需求。设计并开发一款基于SSM框"><link rel="shortcut icon" href="https://www.helloimg.com/i/2024/12/12/675a685a302e6.ico"><link rel="canonical" href="http://example.com/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: false,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助","🏠 美食文化探索者","🔨 奇妙世界观察者","想养一只小猫咪 🤝","脚踏实地行动派 🏃","团队小组发动机 🧱","壮汉人狠话不多 💢"]},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 附加","link":"链接: ","source":"来源: 附加","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '附加',
+  title: '格记--引导型开放日记',
+  postAI: '',
+  pageFillDescription: '格记–引导型开放日记, 一、设计任务与要求, 1.1 设计背景, 1.2 系统功能简介, 1.3 开发环境及要求, 1.4 系统开发的目的, 二、系统需求分析, 2.1 系统功能模块, 2.2 功能性需求, 2.3 非功能性需求, 三、总体设计方案, 3.1 系统功能分析及设计思路, 3.1.1 系统功能分析, 3.1.2 设计思路, 3.2 系统整体框架, 3.2.1 数据库设计, 3.2.2 后端SSM框架搭建, 3.2.3 前端页面搭建, 四、各功能的主要功能及说明, 五、设计结果和分析, 六、学习心得格记引导型开放日记一设计任务与要求设计背景如今随着信息技术的快速发展和广泛应用人们对于个人生活记录和管理的需求日益增长使得更便捷的个人日记本系统成为当下迫切需要的服务传统的纸质日记本或简单的移动设备已无法满足当代人们对于便捷性安全性和高效性的需求设计并开发一款基于框架的引导型个人日记本系统将有效地满足这些需求提高个人的生活质量系统功能简介格记引导型开放日记是一个使用技术开发的在线日记平台该系统是一个简单的在线日记分享编辑平台主要包含以下几个方面登录注册查看所有用户的公开日记对公开日记进行搜索管理个人发布的日记对日记进行评论开发环境及要求操作系统数据库服务器开发工具运行环境系统开发的目的格记日记系统的设计的目的是满足用户对于记录管理和分享个人生活的需求我们系统的目标在于为用户提供一个安全便捷的平台使他们能够记录和存储日常生活情感思想等内容并具备查找分类和评论的功能为用户提供一个交流互助的平套通过这个系统用户不仅可以记录生活中的精彩瞬间或者思想感悟还能够方便地回顾这些珍贵的回忆格记日记系统不仅仅是记录工具更是一个见证用户成长过程的平台它可以帮助用户更好地了解自己的成长和改变提高自我认知和自我管理能力通过回顾过往的日记内容用户能够更清晰地观察自己的成长过程在一篇篇自己编写的日记中发现一种情感支持和心理健康的保障它将陪伴用户度过人生中的喜怒哀乐见证用户成长转变和进步帮助用户记录生活的点点滴滴提高自我认知和情感管理的能力二系统需求分析系统功能模块功能性需求登录和注册用户注册一个新账户提供用户名和密码已注册用户能够登录系统管理员可使用管理员账号登录创建日记用户登录后能够创建新的日记条目日记条目包含标题日期时间内容等信息查看日记用户可以查看以前创建的日记条目且可以按日期标题等方式进行排序和筛选若不登陆用户则可以浏览公开的日记编辑和删除日记用户可以编辑已存在的日记条目删除不再需要的日记条目用户可以编辑自己的评论也可以评论公开的日记备份和恢复用户可以备份日记数据以防止意外数据丢失具备恢复功能允许用户在需要时恢复备份的数据非功能性需求用户友好性界面简洁直观易于新用户上手安全性用户密码加密存储以保护用户数据的安全性用户的日记数据受到访问控制通过身份验证的用户可以查看和修改管理员账号登陆可以管理所有人的公开日记可扩展性系统易于扩展为将来添加新的功能或改进现有功能提供便利性能系统具有良好的性能能够在短时间内响应用户请求并处理日记数据稳定性系统应稳定可靠能够长时间运行尽量避免崩溃或错误三总体设计方案系统功能分析及设计思路系统功能分析日记系统可以记录生活中的点滴细节思考和感悟同时也是现如今压力越来越大的情况下一个很好的情感出口在格记日记系统诞生之初我们就对其有着清晰的定位格记作为一个线上日记管理系统有着比传统纸质日记更便捷不易丢失和损坏等优点因此作为一个线上日记系统一定要确保用户数据的安全性加强隐私保护的同时也要确保数据被即使安全的保存在云端确保用户的数据不会丢失我们对格记进行以下的功能设置来帮助用户更好的使用线上日记系统分类管理格记提供一些固定标签或者自定义标签帮助用户划分和查找自己的日记便捷分享用户可以将自己的日记分享给朋友或公开发布增加交流和分享的机会也可以评论和转发他人公开权限的日记匿名浏览提供心灵交流和呼吸的空间不登陆可匿名浏览他人公开日记引导型记录为用户提供问题和模板帮助用户更便捷的记录自己的一天管理方式方便登录分为用户账号登录和管理员账号登录方便管理人员后续跟进和维护设计思路日记系统的总体设计思路主要从记日记的用户角度出发发现和整理用户的实际需求并按需求进行功能设计首先在用户登录或者注册后可通过个人空间管理的功能对日记进行管理主要包括日记的添加编辑删除查询等功能用户还可对自己的日记进行分类管理并可根据分类将其显示在个人空间中通过本项目的设计与实现旨在为用户提供一个高效安全便捷的线上日记管理平台促进用户之间的交流与分享提升用户的记录和管理体验系统整体框架该系统数据库采用关系型数据库后端采用架构前端采用模板引擎数据库设计如图所示为数据库的整体设计方案表数据分析用户表用户用户名密码邮箱日记地址昵称创建时间活跃时间角色权限头像位置内容表日记分类标题缩略名创建时间修改时间文章内容是否推荐作者文章类型文章状态访问量缩略图描述分类表分类分类名称缩略图评论表评论文章创建时间作者作者邮箱日记地址地址评论内容父评论文件表文件路径作者文件状态名称类型创建时间修改时间下载量文件大小日志表日志浏览器名操作系统名访问路径地址来源地址访问时间文章标签表标签标签名总标签数后端框架搭建框架是的缩写它是由和两大开放源码框架是的一部分组成的经常被用来做一些相对简单的工程的框架与以前的相比更轻便更灵活已经成为开发的主流框架负责管理表现层的容器是容器的子容器因此容器可以调用容器中的对象负责事务管理可以管理持久层的对象和业务层的对象由于对象和对象都在容器中所以可以在业务逻辑层通过对象调用持久层的对象负责与数据库进行交互后端项目结构图前端页面搭建前端采用模板搭建是适用于和独立环境的现代服务器端模板引擎的主要目标是为您的开发工作流程带来优雅的自然模板使可以在浏览器中正确显示也可以作为静态原型工作从而可以在开发团队中加强协作在有网络和无网络的环境下皆可运行即它可以让美工在浏览器查看页面的静态效果也可以让程序员在服务器查看带数据的动态页面效果这是由于它支持原型然后在标签里增加额外的属性来达到模板数据的展示方式浏览器解释时会忽略未定义的标签属性所以的模板可以静态地运行当有数据返回到页面时标签会动态地替换掉静态内容使页面动态显示开箱即用的特性它提供标准和标准两种方言可以直接套用模板实现表达式效果避免每天套模板该改标签的困扰同时开发人员也可以扩展和创建自定义的方言提供标准方言和一个与完美集成的可选模块可以快速的实现表单绑定属性编辑器国际化等功能前端项目结构图四各功能的主要功能及说明登陆注册功能系统分为用户登录和管理员登录用户登录后可以编写日记和管理日记管理员登录后可以查看系统数据和管理日记标签分类用户等日记管理功能用户登录后可以编辑发布自己的日记并且可以对自己发布的日记进行管理包括修改日记和删除日记分类管理功能分类可以对所有的日记进行归类处理不同的日记不同的类别方便用户查看对应的感兴趣的内容标签管理功能用户在编写日记时可以选择已有多个标签也可添加自己需要的标签标签更细化了日记的种类方便用户查看对应的感兴趣的内容评论管理功能可以对日记进行评论与作者互动用户管理功能管理员账号登录后可以管理所有的普通用户对用户进行修改和删除操作文件管理功能管理员账号可处理用户上传的一些文件具有上传和删除操作五设计结果和分析游客角色系统登录注册用户角色管理员角色仪表盘展示系统所有统计信息总日记数分类数量标签数量评论数量等用户管理展示系统所有用户的公开日记分类管理新增修改和删除类别操作标签管理对标签进行修改和删除操作并且显示标签对应的日记数量评论管理展示系统所有日记的评论点击前台地址可以跳转到对应的评论日记页面用户管理展示系统所有已注册的用户信息文件管理展示用户之间共享存储的文件可以免费下载和查看系统配置可以对个人信息和密码进行修改团队信息的内容就是在主页上显示的信息展示模块可动态修改不同的值六学习心得通过一个学期对这门课的学习让我认识到信心恒心毅力在学习的过程当中十分重要在本门课一学期的学习中我们学习到了许多的理论知识但真正让我们对这些书本知识印象深刻的还是此次大作业在本次大作业中我们学习到了在课上只闻其声不见其貌的框架顺带复习了以前学习的一系列数据库操作在短短两周内和他们深刻交流了一下这里感谢岳昊老师如果没有您我们的作品将没有这么完善这门课教会我们的不仅仅是一个框架更是一种面对问题不挫败不气馁的态度这是我们第一次在大作业中尝试自己立意虽然我们现在时间和金钱还有限但如果有机会我们想格记真的可以完善好成为一方人心灵的港湾作业完成过程中尽管时间紧迫时遇到困难会抓耳挠腮但一起看着作品成功完成我们这个四人的小团队也感到衷心的欣慰最后感谢我的组员们小组作业中从不踢皮球或者推脱大家都非常快速和完美的完成自己的工作虽然我们的作品还有很多不足但我们之后会继续努力继续进步的期待下次再相遇附表团队分工明细表序号姓名主要工作任务富佳搭建项目基本结构实现用户注册与登录功能实现日记的分类管理功能文档主笔夏取明设计数据库表结构开发日记的创建与编辑功能添加评论功能进行系统测试视频录制王艺凡完善用户界面设计文档主笔朱艳芳完成系统需求分析视频文稿',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-06-15 00:00:00',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://fujia-233.github.io" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">应用</div><div class="back-menu-list"><a class="back-menu-item" href="/album/" title="相册集"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c7e4254b.png" alt="相册集"/><span class="back-menu-item-text">相册集</span></a><a class="back-menu-item" href="/bangumis/" title="追番页"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a7395.png" alt="追番页"/><span class="back-menu-item-text">追番页</span></a><a class="back-menu-item" href="/music/?id=893451151&amp;server=netease" title="音乐馆"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80d76f8.png" alt="音乐馆"/><span class="back-menu-item-text">音乐馆</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">我的</div><div class="back-menu-list"><a class="back-menu-item" href="/essay/" title="随记"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c815febe.png" alt="随记"/><span class="back-menu-item-text">随记</span></a><a class="back-menu-item" href="/comments/" title="留言"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a11d8.png" alt="留言"/><span class="back-menu-item-text">留言</span></a><a class="back-menu-item" href="/about/" title="关于我"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981a34c225.png" alt="关于我"/><span class="back-menu-item-text">关于我</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">附加</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/essay/"><span> 随记</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><span> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><span> 关于我</span></a></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 1.05rem;">C语言<sup>1</sup></a><a href="/tags/Java/" style="font-size: 1.05rem;">Java<sup>7</sup></a><a href="/tags/Nginx/" style="font-size: 1.05rem;">Nginx<sup>1</sup></a><a href="/tags/Typora/" style="font-size: 1.05rem;">Typora<sup>1</sup></a><a href="/tags/Web/" style="font-size: 1.05rem;">Web<sup>1</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 1.05rem;">人工智能<sup>7</sup></a><a href="/tags/%E4%BD%9C%E4%B8%9A/" style="font-size: 1.05rem;">作业<sup>17</sup></a><a href="/tags/%E5%86%B3%E7%AD%96%E6%A0%91/" style="font-size: 1.05rem;">决策树<sup>1</sup></a><a href="/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" style="font-size: 1.05rem;">多媒体<sup>1</sup></a><a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 1.05rem;">安卓<sup>2</sup></a><a href="/tags/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" style="font-size: 1.05rem;">循环神经网络<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 1.05rem;">技术<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 1.05rem;">数据库<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.05rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 1.05rem;">日记<sup>1</sup></a><a href="/tags/%E6%B5%8E%E5%8D%97/" style="font-size: 1.05rem;">济南<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 1.05rem;">深度学习<sup>3</sup></a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.05rem;">算法<sup>3</sup></a><a href="/tags/%E8%81%8C%E4%B8%9A/" style="font-size: 1.05rem;">职业<sup>1</sup></a><a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 1.05rem;">论文<sup>1</sup></a><a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 1.05rem;">音乐<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">五月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">十二月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/" itemprop="url">学习日常</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Java/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Java</span></a><a class="article-meta__tags" href="/tags/%E4%BD%9C%E4%B8%9A/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>作业</span></a><a class="article-meta__tags" href="/tags/Web/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Web</span></a><a class="article-meta__tags" href="/tags/%E6%97%A5%E8%AE%B0/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>日记</span></a></span></div></div><h1 class="post-title" itemprop="name headline">格记--引导型开放日记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2024-06-14T16:00:00.000Z" title="发表于 2024-06-15 00:00:00">2024-06-15</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2024-06-14T16:00:00.000Z" title="更新于 2024-06-15 00:00:00">2024-06-15</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">3.7k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>10分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为北京"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>北京</span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/#post-comment" tabindex="-1"><span id="twikoo-count"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://www.helloimg.com/i/2024/12/11/675981fc1fbab.jpg"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="http://example.com/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/"><header><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/" itemprop="url">学习日常</a><a href="/tags/Java/" tabindex="-1" itemprop="url">Java</a><a href="/tags/%E4%BD%9C%E4%B8%9A/" tabindex="-1" itemprop="url">作业</a><a href="/tags/Web/" tabindex="-1" itemprop="url">Web</a><a href="/tags/%E6%97%A5%E8%AE%B0/" tabindex="-1" itemprop="url">日记</a><h1 id="CrawlerTitle" itemprop="name headline">格记--引导型开放日记</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">附加</span><time itemprop="dateCreated datePublished" datetime="2024-06-14T16:00:00.000Z" title="发表于 2024-06-15 00:00:00">2024-06-15</time><time itemprop="dateCreated datePublished" datetime="2024-06-14T16:00:00.000Z" title="更新于 2024-06-15 00:00:00">2024-06-15</time></header><h1 id="格记–引导型开放日记"><a href="#格记–引导型开放日记" class="headerlink" title="格记–引导型开放日记"></a><strong>格记–引导型开放日记</strong></h1><h2 id="一、设计任务与要求"><a href="#一、设计任务与要求" class="headerlink" title="一、设计任务与要求"></a>一、设计任务与要求</h2><h3 id="1-1-设计背景"><a href="#1-1-设计背景" class="headerlink" title="1.1 设计背景"></a>1.1 设计背景</h3><p>​		如今随着信息技术的快速发展和广泛应用，人们对于个人生活记录和管理的需求日益增长，使得更便捷的个人日记本系统成为当下迫切需要的服务。传统的纸质日记本或简单的移动设备已无法满足当代人们对于便捷性、安全性和高效性的需求。设计并开发一款基于SSM框架的引导型个人日记本系统，将有效地满足这些需求，提高个人的生活质量。</p>
+<h3 id="1-2-系统功能简介"><a href="#1-2-系统功能简介" class="headerlink" title="1.2 系统功能简介"></a>1.2 系统功能简介</h3><p>​		格记–引导型开放日记是一个使用Javaweb技术开发的在线日记平台。该系统是一个简单的在线日记分享、编辑平台。主要包含以下几个方面：登录注册，查看所有用户的公开日记，对公开日记进行搜索，管理个人发布的日记，对日记进行评论。</p>
+<h3 id="1-3-开发环境及要求"><a href="#1-3-开发环境及要求" class="headerlink" title="1.3 开发环境及要求"></a>1.3 开发环境及要求</h3><table>
+<thead>
+<tr>
+<th align="center">操作系统</th>
+<th align="center">Windows10</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">数据库</td>
+<td align="center">MySQL8.0.16</td>
+</tr>
+<tr>
+<td align="center">Web服务器</td>
+<td align="center">Tomcat9.0.54</td>
+</tr>
+<tr>
+<td align="center">开发工具</td>
+<td align="center">IDEA2020.3</td>
+</tr>
+<tr>
+<td align="center">Java运行环境</td>
+<td align="center">Java8</td>
+</tr>
+</tbody></table>
+<h3 id="1-4-系统开发的目的"><a href="#1-4-系统开发的目的" class="headerlink" title="1.4 系统开发的目的"></a>1.4 系统开发的目的</h3><p>​		格记日记系统的设计的目的是满足用户对于记录、管理和分享个人生活的需求。我们系统的目标在于为用户提供一个安全、便捷的平台，使他们能够记录和存储日常生活、情感、思想等内容。并具备查找、分类和评论的功能为用户提供一个交流互助的平套。通过这个系统，用户不仅可以记录生活中的精彩瞬间或者思想感悟，还能够方便地回顾这些珍贵的回忆。</p>
+<p>​		格记日记系统不仅仅是记录工具，更是一个见证用户成长过程的平台。它可以帮助用户更好地了解自己的成长和改变，提高自我认知和自我管理能力。通过回顾过往的日记内容，用户能够更清晰地观察自己的成长过程。在一篇篇自己编写的日记中，发现一种情感支持和心理健康的保障。它将陪伴用户度过人生中的喜怒哀乐，见证用户成长、转变和进步，帮助用户记录生活的点点滴滴，提高自我认知和情感管理的能力。</p>
+<h2 id="二、系统需求分析"><a href="#二、系统需求分析" class="headerlink" title="二、系统需求分析"></a>二、系统需求分析</h2><h3 id="2-1-系统功能模块"><a href="#2-1-系统功能模块" class="headerlink" title="2.1 系统功能模块"></a>2.1 系统功能模块</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212160910243.png" alt="image-20241212160910243"></p>
+<h3 id="2-2-功能性需求"><a href="#2-2-功能性需求" class="headerlink" title="2.2 功能性需求"></a>2.2 功能性需求</h3><ul>
+<li><p>登录和注册：</p>
+<p>用户注册一个新账户，提供用户名和密码。</p>
+<p>已注册用户能够登录系统。</p>
+<p>管理员可使用管理员账号登录。</p>
+</li>
+<li><p>创建日记：</p>
+<p>用户登录后，能够创建新的日记条目。</p>
+<p>日记条目包含标题、日期、时间、内容等信息。</p>
+</li>
+<li><p>查看日记：</p>
+<p>用户可以查看以前创建的日记条目。</p>
+<p>且可以按日期、标题等方式进行排序和筛选。</p>
+<p>若不登陆，用户则可以浏览公开的日记。</p>
+</li>
+<li><p>编辑和删除日记：</p>
+<p>用户可以编辑已存在的日记条目，删除不再需要的日记条目。</p>
+<p>用户可以编辑自己的评论，也可以评论公开的日记。</p>
+</li>
+<li><p>备份和恢复：</p>
+<p>用户可以备份日记数据，以防止意外数据丢失。</p>
+<p>具备恢复功能，允许用户在需要时恢复备份的数据。</p>
+</li>
+</ul>
+<h3 id="2-3-非功能性需求"><a href="#2-3-非功能性需求" class="headerlink" title="2.3 非功能性需求"></a>2.3 非功能性需求</h3><ul>
+<li><p>用户友好性：</p>
+<p>界面简洁直观，易于新用户上手。</p>
+</li>
+<li><p>安全性：</p>
+</li>
+</ul>
+<p>​		用户密码加密存储，以保护用户数据的安全性。</p>
+<p>​		用户的日记数据受到访问控制，通过身份验证的用户可以查看和修改。</p>
+<p>​		管理员账号登陆可以管理所有人的公开日记。</p>
+<ul>
+<li>可扩展性：</li>
+</ul>
+<p>​		系统易于扩展，为将来添加新的功能或改进现有功能提供便利。</p>
+<ul>
+<li>性能：</li>
+</ul>
+<p>​		系统具有良好的性能，能够在短时间内响应用户请求并处理日记数据。</p>
+<ul>
+<li>稳定性：</li>
+</ul>
+<p>​		系统应稳定可靠，能够长时间运行尽量避免崩溃或错误。</p>
+<h2 id="三、总体设计方案"><a href="#三、总体设计方案" class="headerlink" title="三、总体设计方案"></a>三、总体设计方案</h2><h3 id="3-1-系统功能分析及设计思路"><a href="#3-1-系统功能分析及设计思路" class="headerlink" title="3.1 系统功能分析及设计思路"></a>3.1 系统功能分析及设计思路</h3><h4 id="3-1-1-系统功能分析"><a href="#3-1-1-系统功能分析" class="headerlink" title="3.1.1 系统功能分析"></a>3.1.1 系统功能分析</h4><p>​		日记系统可以记录生活中的点滴细节思考和感悟，同时也是现如今压力越来越大的情况下一个很好的情感出口。在格记日记系统诞生之初，我们就对其有着清晰的定位。格记作为一个线上日记管理系统有着比传统纸质日记更便捷，不易丢失和损坏等优点。因此作为一个线上日记系统，一定要确保用户数据的安全性，加强隐私保护的同时也要确保数据被即使安全的保存在云端，确保用户的数据不会丢失。我们对格记进行以下的功能设置来帮助用户更好的使用线上日记系统</p>
+<p>​		分类管理：格记提供一些固定标签或者自定义标签帮助用户划分和查找自己的日记。</p>
+<p>​		便捷分享：用户可以将自己的日记分享给朋友或公开发布，增加交流和分享的机会。也可以评论和转发他人公开权限的日记。</p>
+<p>​		匿名浏览：提供心灵交流和呼吸的空间，不登陆可匿名浏览他人公开日记。</p>
+<p>​		引导型记录：为用户提供问题和模板帮助用户更便捷的记录自己的一天。</p>
+<p>​		管理方式方便：登录分为用户账号登录和管理员账号登录，方便管理人员后续跟进和维护</p>
+<h4 id="3-1-2-设计思路"><a href="#3-1-2-设计思路" class="headerlink" title="3.1.2 设计思路"></a>3.1.2 设计思路</h4><p>​		日记系统的总体设计思路主要从记日记的用户角度出发，发现和整理用户的实际需求并按需求进行功能设计。首先在用户登录或者注册后，可通过个人空间管理的功能，对日记进行管理。主要包括日记的添加、编辑、删除、查询等功能。用户还可对自己的日记进行分类管理，并可根据分类将其显示在个人空间中。通过本项目的设计与实现，旨在为用户提供一个高效、安全、便捷的线上日记管理平台，促进用户之间的交流与分享，提升用户的记录和管理体验。</p>
+<h3 id="3-2-系统整体框架"><a href="#3-2-系统整体框架" class="headerlink" title="3.2 系统整体框架"></a>3.2 系统整体框架</h3><p>​		该系统数据库采用关系型数据库MySQL8，后端采用SSM架构，前端采用Thymeleaf模板引擎。</p>
+<h4 id="3-2-1-数据库设计"><a href="#3-2-1-数据库设计" class="headerlink" title="3.2.1 数据库设计"></a>3.2.1 数据库设计</h4><p>​		如图所示为diary_ssm数据库的整体设计方案。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161453691.png" alt="image-20241212161453691"></p>
+<p>表数据分析：</p>
+<ul>
+<li>用户表（user）：用户id、用户名、密码、邮箱、日记地址、昵称、创建时间、活跃时间、角色权限、头像位置。</li>
+<li>内容表（content）：日记id、分类id、标题、缩略名、创建时间、修改时间、文章内容、是否推荐、作者id、文章类型、文章状态、访问量、缩略图、描述。</li>
+<li>分类表（category）：分类id、分类名称、缩略图。</li>
+<li>评论表（comment）：评论id、文章id、创建时间、作者、作者id、邮箱、日记地址、IP地址、评论内容、父评论。</li>
+<li>文件表（file）：文件id、路径、作者id、文件状态、名称、类型、创建时间、修改时间、下载量、文件大小。</li>
+<li>日志表（log）：日志id、浏览器名、操作系统名、访问api路径、IP地址、来源地址、访问时间、文章id。</li>
+<li>标签表（tag）：标签id、标签名、总标签数。</li>
+</ul>
+<h4 id="3-2-2-后端SSM框架搭建"><a href="#3-2-2-后端SSM框架搭建" class="headerlink" title="3.2.2 后端SSM框架搭建"></a>3.2.2 后端SSM框架搭建</h4><p>​		SSM框架是 Spring+ SpringMVC+ MyBatis的缩写，它是由 Spring和 MyBatis两大开放源码框架（SpringMVC是 Spring的一部分）组成的，经常被用来做一些相对简单的 Web工程的框架。与以前的 SSH (Spring+ Struts+ Hibernate）相比， SSM更轻便、更灵活，已经成为 Java Web开发的主流框架。</p>
+<p>​		SpringMVC负责管理表现层的Handler。SpringMVC容器是Spring容器的子容器，因此SpringMVC容器可以调用Spring容器中的Service对象。</p>
+<p>​		Spring负责事务管理，Spring可以管理持久层的Mapper对象和业务层的Service对象。由于Mapper对象和Service对象都在Spring容器中，所以可以在业务逻辑层通过Service对象调用持久层的Mapper对象。</p>
+<p>​		Mybatis负责与数据库进行交互。</p>
+<p>后端项目结构图：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161544729.png" alt="image-20241212161544729"></p>
+<h4 id="3-2-3-前端页面搭建"><a href="#3-2-3-前端页面搭建" class="headerlink" title="3.2.3 前端页面搭建"></a>3.2.3 前端页面搭建</h4><p>​		前端采用Thymeleaf模板搭建，Thymeleaf是适用于Web和独立环境的现代服务器端Java模板引擎。Thymeleaf的主要目标是为您的开发工作流程带来优雅的自然模板，使HTML可以在浏览器中正确显示，也可以作为静态原型工作，从而可以在开发团队中加强协作。</p>
+<p>​		Thymeleaf 在有网络和无网络的环境下皆可运行，即它可以让美工在浏览器查看页面的静态效果，也可以让程序员在服务器查看带数据的动态页面效果。这是由于它支持 html 原型，然后在 html 标签里增加额外的属性来达到模板+数据的展示方式。浏览器解释 html 时会忽略未定义的标签属性，所以 Thymeleaf 的模板可以静态地运行；当有数据返回到页面时，Thymeleaf 标签会动态地替换掉静态内容，使页面动态显示。</p>
+<p>​		Thymeleaf 开箱即用的特性。它提供标准和spring标准两种方言，可以直接套用模板实现JSTL、 OGNL表达式效果，避免每天套模板、该jstl、改标签的困扰。同时开发人员也可以扩展和创建自定义的方言。</p>
+<p>​		Thymeleaf 提供spring标准方言和一个与 SpringMVC 完美集成的可选模块，可以快速的实现表单绑定、属性编辑器、国际化等功能。</p>
+<p>前端项目结构图：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161622191.png" alt="image-20241212161622191"></p>
+<h2 id="四、各功能的主要功能及说明"><a href="#四、各功能的主要功能及说明" class="headerlink" title="四、各功能的主要功能及说明"></a>四、各功能的主要功能及说明</h2><p>1．登陆注册功能</p>
+<p>​		系统分为用户登录和管理员登录，用户登录后可以编写日记和管理日记，管理员登录后可以查看系统数据和管理日记、标签、分类、用户等。</p>
+<p>2．日记管理功能</p>
+<p>​		用户登录后可以编辑发布自己的日记，并且可以对自己发布的日记进行管理，包括修改日记和删除日记。</p>
+<p>3．分类管理功能</p>
+<p>​		分类可以对所有的日记进行归类处理，不同的日记不同的类别，方便用户查看对应的感兴趣的内容。</p>
+<p>4．标签管理功能</p>
+<p>​		用户在编写日记时，可以选择已有多个标签，也可添加自己需要的标签，标签更细化了日记的种类，方便用户查看对应的感兴趣的内容。</p>
+<p>5．评论管理功能</p>
+<p>​		可以对日记进行评论，与作者互动。</p>
+<p>6.用户管理功能</p>
+<p>​		管理员账号登录后，可以管理所有的普通用户，对用户进行修改和删除操作。</p>
+<p>7．文件管理功能</p>
+<p>​		管理员账号可处理用户上传的一些文件。具有上传和删除操作。</p>
+<h2 id="五、设计结果和分析"><a href="#五、设计结果和分析" class="headerlink" title="五、设计结果和分析"></a>五、设计结果和分析</h2><p>1．游客角色</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161853291.png" alt="image-20241212161853291"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161857641.png" alt="image-20241212161857641"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161906591.png" alt="image-20241212161906591"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212161909643.png" alt="image-20241212161909643"></p>
+<p>2．系统登录注册</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162627043.png" alt="image-20241212162627043"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162640904.png" alt="image-20241212162640904"></p>
+<p>3．用户角色</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162651756.png" alt="image-20241212162651756"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162656357.png" alt="image-20241212162656357"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162702311.png" alt="image-20241212162702311"></p>
+<p>4．管理员角色</p>
+<p>仪表盘：展示系统所有统计信息，总日记数，分类数量，标签数量，评论数量等。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162713785.png" alt="image-20241212162713785"></p>
+<p>用户管理：展示系统所有用户的公开日记。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162726163.png" alt="image-20241212162726163"></p>
+<p>分类管理：新增、修改和删除类别操作。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162735156.png" alt="image-20241212162735156"></p>
+<p>标签管理：对标签进行修改和删除操作，并且显示标签对应的日记数量。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162742832.png" alt="image-20241212162742832"></p>
+<p>评论管理：展示系统所有日记的评论，点击前台地址可以跳转到对应的评论日记页面。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162750798.png" alt="image-20241212162750798"></p>
+<p>用户管理：展示系统所有已注册的用户信息。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162757881.png" alt="image-20241212162757881"></p>
+<p>文件管理：展示用户之间共享存储的文件，可以免费下载和查看。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162806559.png" alt="image-20241212162806559"></p>
+<p>系统配置：可以对个人信息和密码进行修改，团队信息的内容就是在主页上显示的信息展示模块，可动态修改不同的值。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/image-20241212162813263.png" alt="image-20241212162813263"></p>
+<h2 id="六、学习心得"><a href="#六、学习心得" class="headerlink" title="六、学习心得"></a>六、学习心得</h2><p>​		通过一个学期对Java这门课的学习，让我认识到信心、恒心、毅力在学习的过程当中十分重要。在本门课一学期的学习中我们学习到了许多的理论知识，但真正让我们对这些书本知识印象深刻的还是此次大作业。在本次大作业中我们学习到了在课上只闻其声不见其貌的框架，顺带复习了以前学习的一系列数据库操作。在短短两周内和“他们”深刻交流了一下，这里感谢岳昊老师，如果没有您我们的作品将没有这么完善。</p>
+<p>​		这门课教会我们的不仅仅是一个框架，更是一种面对问题不挫败不气馁的态度。这是我们第一次在大作业中尝试自己立意。虽然我们现在时间和金钱还有限，但如果有机会我们想格记真的可以完善好，成为一方人心灵的港湾。作业完成过程中尽管时间紧迫时，遇到困难会抓耳挠腮，但一起看着作品成功完成，我们这个四人的小团队也感到衷心的欣慰。</p>
+<p>​		最后感谢我的组员们，小组作业中从不踢皮球或者推脱，大家都非常快速和完美的完成自己的工作，虽然我们的作品还有很多不足，但我们之后会继续努力继续进步的。期待下次再相遇！</p>
+<p><strong>附表：</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">团队分工明细表</th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">序号</td>
+<td align="center">姓名</td>
+<td align="center">主要工作任务</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">富佳</td>
+<td align="center">搭建项目基本结构；实现用户注册与登录功能；实现日记的分类管理功能；文档主笔。</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">夏取明</td>
+<td align="center">设计数据库表结构；开发日记的创建与编辑功能；添加评论功能；进行系统测试；视频录制。</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">王艺凡</td>
+<td align="center">完善用户界面设计；文档主笔。</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">朱艳芳</td>
+<td align="center">完成系统需求分析；视频文稿；</td>
+</tr>
+</tbody></table>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">附加</div><div class="post-copyright__author_desc">允许一切发生</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://example.com/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/')">格记--引导型开放日记</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://example.com/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=格记--引导型开放日记&amp;url=http://example.com/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/&amp;pic=https://www.helloimg.com/i/2024/12/11/675981fc1fbab.jpg" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">附加</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Java/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Java<span class="tagsPageCount">7</span></a><a class="post-meta__box__tags" href="/tags/%E4%BD%9C%E4%B8%9A/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>作业<span class="tagsPageCount">17</span></a><a class="post-meta__box__tags" href="/tags/Web/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Web<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/%E6%97%A5%E8%AE%B0/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>日记<span class="tagsPageCount">1</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/06/09/%E5%9F%BA%E4%BA%8E%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AF%B9%E8%81%94%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%A0%94%E7%A9%B6/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675982470c3ca.jpg" onerror="onerror=null;src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">基于循环神经网络的对联自动生成研究</div></div></a></div><div class="next-post pull-right"><a href="/2024/06/15/%E6%96%91%E9%A9%AC%E9%97%AE%E9%A2%98%E5%AE%9E%E9%AA%8C/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f8ea7d6.jpg" onerror="onerror=null;src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">斑马问题实验</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/2023/12/23/Android%E7%84%95%E5%A3%81/" title="Android焕壁"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f85e73c.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-12-23</div><div class="title">Android焕壁</div></div></a></div><div><a href="/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/" title="X-Music音乐平台"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-06-29</div><div class="title">X-Music音乐平台</div></div></a></div><div><a href="/2024/06/28/%E8%BE%9F%E9%9B%8D%E5%AD%A6%E5%BA%9CAPP/" title="辟雍学府APP"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598247d1cc1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-06-28</div><div class="title">辟雍学府APP</div></div></a></div><div><a href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="高校实习就业信息化管理系统"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981fb9176d.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-06-29</div><div class="title">高校实习就业信息化管理系统</div></div></a></div><div><a href="/2024/12/04/Nginx/" title="Nginx"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-12-04</div><div class="title">Nginx</div></div></a></div><div><a href="/2020/12/04/Java%E5%9F%BA%E7%A1%80/" title="Java基础知识"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f84bc25.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2020-12-04</div><div class="title">Java基础知识</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div><div class="comment-tips" id="comment-tips"><span>✅ 你无需删除空行，直接评论以获取最佳展示效果</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b90eea03.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598d2676f81.jpg" alt="status"/></div></div><div class="author-info__description"><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">附加</h1><div class="author-info__desc">允许一切发生</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/fujia-233" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/32491339" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%BC%E8%AE%B0%E2%80%93%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">格记–引导型开放日记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%AE%BE%E8%AE%A1%E4%BB%BB%E5%8A%A1%E4%B8%8E%E8%A6%81%E6%B1%82"><span class="toc-number">1.1.</span> <span class="toc-text">一、设计任务与要求</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E8%AE%BE%E8%AE%A1%E8%83%8C%E6%99%AF"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 设计背景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E7%AE%80%E4%BB%8B"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 系统功能简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%8F%8A%E8%A6%81%E6%B1%82"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 开发环境及要求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4-%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%9A%84%E7%9B%AE%E7%9A%84"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.4 系统开发的目的</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90"><span class="toc-number">1.2.</span> <span class="toc-text">二、系统需求分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 系统功能模块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E5%8A%9F%E8%83%BD%E6%80%A7%E9%9C%80%E6%B1%82"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 功能性需求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-%E9%9D%9E%E5%8A%9F%E8%83%BD%E6%80%A7%E9%9C%80%E6%B1%82"><span class="toc-number">1.2.3.</span> <span class="toc-text">2.3 非功能性需求</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%A1%88"><span class="toc-number">1.3.</span> <span class="toc-text">三、总体设计方案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 系统功能分析及设计思路</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-1-%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">1.3.1.1.</span> <span class="toc-text">3.1.1 系统功能分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-2-%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF"><span class="toc-number">1.3.1.2.</span> <span class="toc-text">3.1.2 设计思路</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E7%B3%BB%E7%BB%9F%E6%95%B4%E4%BD%93%E6%A1%86%E6%9E%B6"><span class="toc-number">1.3.2.</span> <span class="toc-text">3.2 系统整体框架</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-1-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">3.2.1 数据库设计</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-2-%E5%90%8E%E7%AB%AFSSM%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA"><span class="toc-number">1.3.2.2.</span> <span class="toc-text">3.2.2 后端SSM框架搭建</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-3-%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E6%90%AD%E5%BB%BA"><span class="toc-number">1.3.2.3.</span> <span class="toc-text">3.2.3 前端页面搭建</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%90%84%E5%8A%9F%E8%83%BD%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E5%8F%8A%E8%AF%B4%E6%98%8E"><span class="toc-number">1.4.</span> <span class="toc-text">四、各功能的主要功能及说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%9C%E5%92%8C%E5%88%86%E6%9E%90"><span class="toc-number">1.5.</span> <span class="toc-text">五、设计结果和分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97"><span class="toc-number">1.6.</span> <span class="toc-text">六、学习心得</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/12/04/Nginx/" title="Nginx"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="Nginx"/></a><div class="content"><a class="title" href="/2024/12/04/Nginx/" title="Nginx">Nginx</a><time datetime="2024-12-03T16:00:00.000Z" title="发表于 2024-12-04 00:00:00">2024-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/" title="X-Music音乐平台"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="X-Music音乐平台"/></a><div class="content"><a class="title" href="/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/" title="X-Music音乐平台">X-Music音乐平台</a><time datetime="2024-06-28T16:00:00.000Z" title="发表于 2024-06-29 00:00:00">2024-06-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="高校实习就业信息化管理系统"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981fb9176d.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="高校实习就业信息化管理系统"/></a><div class="content"><a class="title" href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="高校实习就业信息化管理系统">高校实习就业信息化管理系统</a><time datetime="2024-06-28T16:00:00.000Z" title="发表于 2024-06-29 00:00:00">2024-06-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/28/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/" title="决策树分类算法研究"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675982475d8b5.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="决策树分类算法研究"/></a><div class="content"><a class="title" href="/2024/06/28/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/" title="决策树分类算法研究">决策树分类算法研究</a><time datetime="2024-06-27T16:00:00.000Z" title="发表于 2024-06-28 00:00:00">2024-06-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/28/%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E4%B9%A6/" title="职业生涯规划书"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759824a1eb74.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="职业生涯规划书"/></a><div class="content"><a class="title" href="/2024/06/28/%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E4%B9%A6/" title="职业生涯规划书">职业生涯规划书</a><time datetime="2024-06-27T16:00:00.000Z" title="发表于 2024-06-28 00:00:00">2024-06-28</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="footer_deal"><a class="deal_link" target="_blank" rel="noopener" href="https://github.com/fujia-233" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://space.bilibili.com/32491339" title="Bilibili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://v.douyin.com/iDGF6jyD" title="抖音"><i class="anzhiyufont anzhiyu-icon-tiktok"></i></a><img class="footer_mini_logo" title="返回顶部" alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" size="50px"/><a class="deal_link" href="mailto:2504397114@qq.com" title="email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://weibo.com" title="微博"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://www.facebook.com" title="facebook"><i class="anzhiyufont anzhiyu-icon-facebook1"></i></a></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg" alt="本站项目由Github托管"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2023 - 2024 By <a class="footer-bar-link" href="/" title="附加" target="_blank">附加</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://image.anheyu.com" title="图床">图床</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"></a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">21</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">3</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://fujia-233.github.io" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">应用</div><div class="back-menu-list"><a class="back-menu-item" href="/album/" title="相册集"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c7e4254b.png" alt="相册集"/><span class="back-menu-item-text">相册集</span></a><a class="back-menu-item" href="/bangumis/" title="追番页"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a7395.png" alt="追番页"/><span class="back-menu-item-text">追番页</span></a><a class="back-menu-item" href="/music/?id=893451151&amp;server=netease" title="音乐馆"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80d76f8.png" alt="音乐馆"/><span class="back-menu-item-text">音乐馆</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">我的</div><div class="back-menu-list"><a class="back-menu-item" href="/essay/" title="随记"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c815febe.png" alt="随记"/><span class="back-menu-item-text">随记</span></a><a class="back-menu-item" href="/comments/" title="留言"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a11d8.png" alt="留言"/><span class="back-menu-item-text">留言</span></a><a class="back-menu-item" href="/about/" title="关于我"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981a34c225.png" alt="关于我"/><span class="back-menu-item-text">关于我</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/essay/"><span> 随记</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><span> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><span> 关于我</span></a></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 0.88rem;">C语言<sup>1</sup></a><a href="/tags/Java/" style="font-size: 0.88rem;">Java<sup>7</sup></a><a href="/tags/Nginx/" style="font-size: 0.88rem;">Nginx<sup>1</sup></a><a href="/tags/Typora/" style="font-size: 0.88rem;">Typora<sup>1</sup></a><a href="/tags/Web/" style="font-size: 0.88rem;">Web<sup>1</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 0.88rem;">人工智能<sup>7</sup></a><a href="/tags/%E4%BD%9C%E4%B8%9A/" style="font-size: 0.88rem;">作业<sup>17</sup></a><a href="/tags/%E5%86%B3%E7%AD%96%E6%A0%91/" style="font-size: 0.88rem;">决策树<sup>1</sup></a><a href="/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" style="font-size: 0.88rem;">多媒体<sup>1</sup></a><a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 0.88rem;">安卓<sup>2</sup></a><a href="/tags/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" style="font-size: 0.88rem;">循环神经网络<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 0.88rem;">技术<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 0.88rem;">数据库<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 0.88rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 0.88rem;">日记<sup>1</sup></a><a href="/tags/%E6%B5%8E%E5%8D%97/" style="font-size: 0.88rem;">济南<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 0.88rem;">深度学习<sup>3</sup></a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 0.88rem;">算法<sup>3</sup></a><a href="/tags/%E8%81%8C%E4%B8%9A/" style="font-size: 0.88rem;">职业<sup>1</sup></a><a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 0.88rem;">论文<sup>1</sup></a><a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 0.88rem;">音乐<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("01/01/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2023 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 附加 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><script>(() => {
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      onCommentLoaded: () => {
+        anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(runFn,0)
+    else getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const runFn = () => {
+    init();
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else {
+      loadTwikoo()
+    }
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script async data-pjax src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.1/bubble/bubble.js"></script><script>var visitorMail = "404@qq.com";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script id="click-heart" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/click-heart.min.js" async="async" mobile="false"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>

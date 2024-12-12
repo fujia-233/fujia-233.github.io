@@ -1,0 +1,1257 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>X-Music音乐平台 | 附加</title><meta name="keywords" content="Java,作业,数据库,音乐"><meta name="author" content="附加"><meta name="copyright" content="附加"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="X-Music音乐平台"><meta name="application-name" content="X-Music音乐平台"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="X-Music音乐平台"><meta property="og:url" content="http://example.com/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/index.html"><meta property="og:site_name" content="附加"><meta property="og:description" content="X-Music音乐平台一、概述1.1 项目背景​		现如今，互联网技术在迅速发展的过程中体现了其快速准确便捷的特点，人们对在线音乐网站的需求也在日益增加。为了更好的提高对音乐信息管理的高效性，为了更好的跟随时代信息的高效性，一个在线音乐网站的建立是必要的。在网站上可以实现对音乐相关信息的管理，建立数"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg"><meta property="article:author" content="附加"><meta property="article:tag" content="java 雅思 英语"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg"><meta name="description" content="X-Music音乐平台一、概述1.1 项目背景​		现如今，互联网技术在迅速发展的过程中体现了其快速准确便捷的特点，人们对在线音乐网站的需求也在日益增加。为了更好的提高对音乐信息管理的高效性，为了更好的跟随时代信息的高效性，一个在线音乐网站的建立是必要的。在网站上可以实现对音乐相关信息的管理，建立数"><link rel="shortcut icon" href="https://www.helloimg.com/i/2024/12/12/675a685a302e6.ico"><link rel="canonical" href="http://example.com/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: false,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助","🏠 美食文化探索者","🔨 奇妙世界观察者","想养一只小猫咪 🤝","脚踏实地行动派 🏃","团队小组发动机 🧱","壮汉人狠话不多 💢"]},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 附加","link":"链接: ","source":"来源: 附加","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '附加',
+  title: 'X-Music音乐平台',
+  postAI: '',
+  pageFillDescription: 'X-Music音乐平台, 一、概述, 1.1 项目背景, 1.2 系统名称, 1.3 开发环境, 二、需求分析, 三、系统的基础数据流图, 四、功能分析, 4.1 功能需求及数据需求分析, 4.2 业务规则分析, 五、数据库系统设计—概念设计, 5.1 概念结构设计, 5.2 概念结构的特点和设计方法, 5.2.1 命名规范, 5.2.2 实体集及属性, 5.3 系统的E-R图, 5.3.1 实体—联系方法(Entity-Relationship), 5.3.2 E-R图设计, 六、数据库系统设计—逻辑结构设计, 6.1 关系数据库的基本概念, 6.2 E-R图向关系模型转换的原则, 6.3 关系模式, 6.3.1 将联系转换成关系模式, 6.3.2 对关系模式进行规范化, 七、数据库系统设计—物理结构设计, 7.1 系统包含表的物理结构设计, 八、存储过程和触发器设计, 九、运行界面展示, 9.1用户系统, 9.2管理系统, 十、测试和维护, 总结, 参考文献音乐平台一概述项目背景现如今互联网技术在迅速发展的过程中体现了其快速准确便捷的特点人们对在线音乐网站的需求也在日益增加为了更好的提高对音乐信息管理的高效性为了更好的跟随时代信息的高效性一个在线音乐网站的建立是必要的在网站上可以实现对音乐相关信息的管理建立数据库后将一系列信息存储到数据库中实现用户对相应音乐的搜索和实现管理员对音乐相关信息的管理对于管理员和用户来讲都是具有极大的帮助的在线音乐就是在这个基础上设计的根据上面的分析在图书馆和网站上搜集有关的资料也可以通过线下发传单或以电子形式进行调查问表的填写依据这些信息了解到现实实际中用户对在线音乐网站有哪些需求希望网站上都有什么功能如此在系统实现后能够被广大的用户所接受和推广系统名称本次数据库设计大作业开发的系统名称为音乐平台开发环境本次数据库设计的环境为二需求分析从用户方面用户可以创建账户并登录系统可以对个人信息进行管理用户可以修改个人资料包括昵称头像性别年龄地区等用户可以浏览公共歌单创建并且编辑和删除自己的歌单用户可以在线播放和下载音乐收藏管理可以收藏音乐和歌单并管理自己的收藏列表评论互动用户可以在音乐或歌单下发表评论并对评论进行点赞转发和回复个性化推荐系统根据用户行为和偏好提供个性化的音乐和歌单推荐从管理员方面管理员可以查看审核用户信息处理用户问题歌单管理管理员可以审核歌单内容管理违规歌单音乐库管理管理员可以上传更新删除音乐库中的音乐评论监管管理员可以监控审核用户评论处理不当言论管理员可以配置系统设置如权限分配功能开关等可以生成系统使用情况的统计报告管理员可以设置安全策略管理用户权限从系统设计方面应考虑系统反应度多个人同时在线的时候对一个事件的反应时间要足够短界面效果系统界面一目了然功能划分明确能够快速找到需要的功能并操作储存性能高在线音乐网站需要存储大量的歌曲信息和相对应的歌手的信息以及用户注册信息来满足用户的需求所以要求数据库要有较高的存储量简单操作因为音乐没有年龄之分所以该系统的受用群体可以是所有的用户所以为了方便用户操作和提高系统的使用度要求系统功能一目了然方便用户进行音乐的搜索播放等操作三系统的基础数据流图用户管理用户可以注册登录修改个人信息注销账号等歌单管理用户可以创建编辑删除自己的歌单可以将音乐添加到歌单中可以查看收藏其他用户的歌单可以分享自己的歌单到社交媒体等收藏管理用户可以收藏自己喜欢的音乐歌单歌手等可以查看取消收藏管理自己的收藏夹音乐管理系统可以存储音乐的各种信息包括歌曲专辑歌手流派歌词等可以查询音乐的歌词播放地址等评论管理用户可以评论别人的歌曲歌单可以查看自己的评论删除自己的评论四功能分析功能需求及数据需求分析用户模块实现用户的注册登录修改个人信息注销账号等功能以及用户的身份验证权限控制个性化设置等功能用户模块的数据需求包括用户的基本信息用户名密码邮箱手机号昵称头像性别年龄地区歌单模块实现歌单的创建编辑删除等功能歌单模块的数据需求包括歌单的基本信息歌单名创建者创建时间描述封面歌单的内容信息包含的音乐音乐的顺序音乐的数量歌单的统计信息收藏量播放量评分评论数收藏模块实现收藏的添加取消查看管理等功能收藏模块的数据需求包括收藏的基本信息收藏的类型收藏的对象收藏的时间收藏的统计信息收藏的数量收藏的评分音乐模块实现音乐的存储展示播放下载等功能音乐模块的数据需求包括音乐的基本信息如歌曲名歌手名专辑名时长大小格式封面歌词等音乐的统计信息如播放量下载量收藏量评分评论数等等评论模块实现用户在不同音乐歌单下进行评论评论模块的数据需求包括评论的基本信息如评论的用户评论的时间评论的内容等评论的统计信息如点赞量转发量回复量等业务规则分析用户规则用户必须注册并登录才能使用系统的功能用户可以修改自己的个人信息可以注销自己的账号但不能恢复已注销的账号用户可以给系统提供反馈信息系统会根据用户的反馈信息改进服务质量歌单规则歌单必须有一个唯一的系统不会存储或展示重复的歌单歌单必须有一个创建者系统会记录歌单的创建者和创建时间歌单必须有一个描述系统会展示歌单的描述系统会展示歌单的内容和音乐的顺序收藏规则收藏必须有一个唯一的系统不会存储或展示重复的收藏收藏必须有一个对象系统会记录收藏的对象和收藏的时间收藏除了与收藏名其他都可以为空音乐规则每首音乐都有个唯一的系统不会存储或展示重复的音乐系统会记录音乐的播放地址歌手歌曲名称歌词信息等评论规则每个评论都会有个唯一的系统不会存储重复的评论评论只限于歌曲与歌单音乐平台的数据库功能模块结构设计如图所示五数据库系统设计概念设计概念结构设计概念结构设计是数据库设计的关键阶段之一它的定义可以概括为通过对用户需求进行综合归纳与抽象将现实世界中的客观事物及其相互联系转化为一种独立于具体数据库管理系统的概念模型的过程概念结构设计具体来说就是运用各种概念数据模型的表示方法如图实体联系图等来描述数据库所需要表示和存储的信息结构包括实体实体的属性以及实体之间的关系这个阶段主要关注的是对业务领域的理解和建模而不涉及具体的数据库实现细节如数据类型存储方式等它为后续的逻辑结构设计提供了清晰的蓝图和指导确保数据库能够准确有效地反映业务需求和数据关系概念结构的特点和设计方法概念结构具有抽象性综合性稳定性和可理解性四大特性常见的概念结构设计方法有自顶向下自底向上逐步扩张和混合策略等命名规范实体集的名称应该是单数名词且首字母大写例如等属性的名称应该是小写字母且用下划线分隔单词例如等联系集的名称应该是两个相关实体集的名称用下划线连接例如等主键属性的名称应该是实体集的名称加上例如等外键属性的名称应该是参照实体集的主键属性的名称例如等实体集及属性用户用户是系统的基本使用者用户可以注册登录修改个人信息注销账号等用户实体集的属性有用户的唯一标识主键类型非空用户的用户名用于登录唯一字符串类型非空长度不超过个字符用户的密码用于登录字符串类型非空长度不超过个字符用户的邮箱用于验证和找回密码唯一字符串类型非空长度不超过个字符用户的手机号用于验证和找回密码唯一字符串类型非空长度为个字符用户的昵称用于展示字符串类型非空长度不超过个字符用户的性别用于展示字符串类型非空长度为个字符只能是男或女用户的年龄用于展示整数类型非空范围在到之间音乐音乐是系统的基本内容音乐可以被存储展示播放下载等音乐实体集的属性有音乐的唯一标识主键类型非空音乐的名称用于展示字符串类型非空长度不超过个字符音乐的歌手的用于展示字符串类型非空长度个字符音乐的专辑名称用于展示字符串类型非空长度不超过个字符音乐的封面用于展示字符串类型非空长度不超过个字符存储图片的音乐的歌词用于展示字符串类型非空长度不超过个字符存储歌词的音乐的风格用于分类字符串类型非空长度不超过个字符音乐的播放量用于统计整数类型非空范围在到之间初始值为音乐的收藏量用于统计整数类型非空范围在到之间初始值为音乐的播放地址字符串类型非空长度不超过个字符存储歌曲的歌单歌单是系统的基本组织形式歌单可以被创建编辑删除等歌单实体集的属性有歌单的唯一标识主键整数类型非空自增歌单的名称用于展示字符串类型非空长度不超过个字符歌单的创建者用于展示外键引用用户实体集的属性整数类型非空歌单的创建时间用于展示日期时间类型非空格式为歌单的描述用于展示字符串类型非空长度不超过个字符歌单的封面用于展示字符串类型非空长度不超过个字符存储图片的歌单的标签用于分类字符串类型非空长度不超过个字符收藏收藏是系统的基本交互形式收藏可以被添加取消查看管理等收藏实体集的属性有收藏的唯一标识主键整数类型非空自增收藏的类型用于分类字符串类型非空长度为个字符只能是歌曲或歌单分别表示收藏的对象是音乐或歌单收藏的用户用于展示外键引用实体集的外键收藏的创建时间用于展示日期时间类型非空格式为收藏的描述用于展示字符串类型非空长度不超过个字符评论评论是系统的基本内容评论可以被存储展示等评论实体集的属性有评论的唯一标识主键类型非空用户的唯一标识类型非空评论的内容类型非空被评论对象的唯一标识类型非空被评论对象的类型代表着歌单或歌曲类型非空系统的图实体联系方法根据实际需求得出各实体之间的联系如下用户歌单用户和歌单之间的联系集表示用户可以创建编辑删除自己的歌单歌单音乐歌单和音乐之间的联系集表示歌单可以包含一个或多个音乐音乐可以属于一个或多个歌单歌单的创建者可以将音乐添加到歌单中也可以从歌单中移除音乐歌单的内容和音乐的顺序可以被编辑用户收藏用户和收藏之间的联系集表示用户可以收藏自己喜欢的音乐歌单歌手等也可以查看取消收藏管理自己的收藏夹收藏音乐收藏和音乐的联系集表示一首歌可以被一个或多收藏夹收藏一个收藏夹可以收藏一个或多个音乐用户可以向收藏夹中增添删除音乐收藏歌单收藏和歌单的联系集表示一个歌单可以被一个或多收藏夹收藏一个收藏夹可以收藏一个或多个歌单用户可以向收藏夹中增添删除歌单评论音乐评论音乐的联系集表示一首歌可以拥有多个评论但同一个评论只能属于一首歌用户可以自己添加删除评论评论歌单评论歌单的联系集表示一个歌单可以拥有多个评论但同一个评论只能属于一歌单用户可以自己添加删除评论图设计六数据库系统设计逻辑结构设计关系数据库的基本概念由实体间的联系导出关系模型关系模型在关系数据库中即为一个二维表记录二维表中的一行表示一个实体字段二维表的列表示实体的属性特征主键列或列的组合能唯一地标识一行表中只有一个主键主键不允许或重复外键表中某一字段与另一表中的主键相对应则该字段称为表的外键外键表示了两个表之间的联系主键所在的表称为主表外键所在的表为从表关系模型即二维表要满足数据完整性的要求数据完整性指数据的正确性和可靠性实体完整性保证表中所有行具有唯一性域完整性保证给定字段的数据有效性参照完整性也称引用完整性确保相关联的表之间数据的一致性用户自定义完整性用户根据实际系统要求定义的约束条件涉及到的数据必须满足语义要求图向关系模型转换的原则如果两个关系是的联系可以在两个实体类型转换成的两个关系模式中任意一个关系模式中加入另一个关系模式的码和联系类型的属性如果两个关系是的联系则在端实体类型转换成的关系模式中加入端实体类型的码和联系类型的属性如果两个关系是的联系则将联系类型也转换成关系模式其属性为两端实体类型的码加上联系类型的属性而码为两端实体码的组合关系模式经过以上图设计再对相关表结构优化后得到如下设计将联系转换成关系模式用户歌单歌单音乐用户收藏收藏音乐收藏歌单评论音乐评论歌单对关系模式进行规范化这个数据库满足第一范式因为每个表中的所有属性都是不可再分的原子值这个数据库满足第二范式因为每个表中的非主属性都完全函数依赖于主键没有部分函数依赖的情况例如表中的所有非主属性都完全函数依赖于主键而不是部分依赖于或等这个数据库不满足第三范式因为和字段并不能由和得出因此得出存在相关传递依赖另外因为另外表和表中的数据有着很多重合外加上表数量很多后期难以维护所以我将这两个合并成一张表再加上一个字段用以区分是还是经过修改后得到以下数据表这个数据库满足第三范式因为每个表中的非主属性都不传递函数依赖于主键也就是说不存在非主属性之间的依赖关系例如表中的属性不依赖于属性而只依赖于主键经过以上规范化处理后关系模式更加简洁清晰并且减少了数据冗余和不一致性同时也提高了数据库的性能和可维护性七数据库系统设计物理结构设计本数据库一共设计了张表表用来存储用户数据表用来存储音乐数据表用来存储作者数据表用来存储歌单的定义数据表用来存储歌单中具体歌曲列表数据表用来存储收藏的定义数据表用来存储收藏的具体项目数据表用来存储评论数据表用来存储音乐的风格数据表用来存储歌单的类型数据本数据库一共定义了个索引其中个索引均为主键索引在定义主键时会自动生成个唯一索引分别是表中的和字段表结构如图所示以下用三线表进行表的物理结构设计展示系统包含表的物理结构设计表列序号列名类型取值说明列含义主键用户名密码邮箱手机号昵称性别年龄表列序号列名类型取值说明列含义主键名称歌手专辑名称封面歌词风格播放量收藏量播放地址表列序号列名类型取值说明列含义主键名称创建者创建时间描述封面标签表列序号列名类型取值说明列含义主键标签表列序号列名类型取值说明列含义主键歌单主键音乐表列序号列名类型取值说明列含义主键用户创建时间名称表列序号列名类型取值说明列含义主键收藏主键收藏项目主键收藏类型表列序号列名类型取值说明列含义主键音乐风格表列序号列名类型取值说明列含义主键评论用户内容被评论被评论类型表列序号列名类型取值说明列含义主键姓名八存储过程和触发器设计这个触发器会在向表插入数据之前检查是否合法如果的值为歌单则需要在表的字段内如果值为歌曲则需要在表的字段内如果不匹配触发器会抛出一个错误错误内容为数据不匹配请重新输入这个存储过程接受两个作为输入比较这两个对应的如果第一个的大于或等于第二个的则输出否则输出这个存储函数接受一个作为输入返回这个对应的歌单中的歌曲总数这个触发器会在向表插入数据之前检查是否合法如果的值为歌单则需要在表的字段内如果值为歌曲则需要在表的字段内如果不匹配触发器会抛出一个错误错误内容为数据不匹配请重新输入这个触发器会在表的被修改后自动更新和表中的对应这个触发器会在表的被修改后自动更新表中的对应这个触发器会在表的被修改后自动更新表中的对应九运行界面展示用户系统运行系统在浏览器输入即可跳转到账号登录界面账号登录界面如图所示首页展示轮播图和歌单资讯轮播图可以用于展示系统快捷指令或者系统活动信息并且展示各类热门歌单供用户选择首页界面如图所示歌单列表用于展示系统所有的歌单个性化推荐给用户喜欢的歌单歌单列表界面如图所示歌手列表用于展示系统中所有的歌手点击歌手可跳转到歌手的详细信息页面歌手列表界面如图所示点击音乐列表可以进入对应音乐的详情界面展示音乐图片歌手歌词评论等信息音乐详情界面如图所示用户登录后可以进入个人资料界面设置个人资料修改密码等操作个人资料界面如图所示管理系统后台管理首页展示统计的系统信息比如用户数量歌曲总数歌手数量用户性别比例等信息后台管理首页界面如图所示管理员可对用户进行管理可批量删除用户用户管理界面如图所示管理员可对歌手进行管理可以添加修改删除歌手也可对歌手的歌曲进行管理歌手管理界面如图所示管理员可对歌单进行管理可以添加编辑删除歌单也可对歌单评论进行管理歌单管理界面如图所示十测试和维护软件在基本完成开发后不是立刻就会应用到市场上去每一个软件在正式应用之前都要经过数次的测试与修改这样才能保证上线后能够以该软件拥有足够的稳定性能够快速上手操作有着可以满足用户需求的功能优美的页面留住用户吸引用户继续使用该软件最后实现项目的圆满完成对系统的测试主要是将系统全部的功能运行操作一遍或几遍以上查看是否出错的一个操作对系统的测试包含着功能测试和数据测试两部分其中功能测试是检验本在线音乐网站功能是否可以正常的操作表用户登录模块测试用例用例编号测试用例描述操作过程及数据预期结果测试结果输入正确的用户名密码遵循系统既定规则填写用户名密码后点击确定开始登录系统成功登录系统后跳转到系统主页通过输入错误的用户名密码遵循系统既定规则填写用户名密码后点击确定开始登录系统系统提示登录失败并进入错误提示通过空用户名密码遵循系统既定规则填写用户名密码后点击确定开始登录系统系统提示登录失败并进入错误提示通过表用户管理模块测试用例用例编号测试用例描述操作过程及数据预期结果测试结果录入用户信息点击添加按钮填写用户信息点击确定按钮提示录入成功通过修改用户信息点击列表操作栏中的修改链接改动信息后点击确定按钮提示修改成功用户信息变化通过删除用户信息点击列表操作栏中的删除链接提示删除成功列表刷新通过表密码修改模块测试用例用例编号测试用例描述操作过程及数据预期结果测试结果点击修改密码输入正确的密码按照系统流程填写密码信息后点击确定系统提示保存成功密码保存到数据库通过点击修改密码输入错误的密码按照系统流程填写错误密码信息后点击确定系统报错跳转到保存失败界面通过点击修改密码空用户名密码按照系统流程点击修改密码后不填写直接点击确定系统报错跳转到保存失败界面通过测试结论本在线音乐系统可以基本实现管理员对用户注册信息的查看对音乐和歌手等信息的管理用户可以根据登录名和密码登录页面对音乐进行搜索播放评价等操作数据会在修改和添加时进行同步使得用户和管理员能够看到的信息是统一的有效的总结音乐管理系统是一个完善的数据库系统系统的业务需求包括用户管理歌单管理收藏管理音乐管理和评论管理系统的功能需求及数据需求分析包括用户模块歌单模块收藏模块音乐模块和评论模块系统的业务规则分析包括用户规则歌单规则收藏规则音乐规则和评论规则系统中一共包含了个表以及对应的主键与相应的外键创建的数个存储过程函数与触发器保障了数据库的完整性与安全性在撰写这次大作业的过程中我学到很多如如何分析业务需求和数据需求如何设计数据库表如何确保数据库的完整性和安全性明白了如何分析业务需求如何更好的理解业务如将业务转化成文字与图表与代码最终实现业务的流程在完成这次作业过程中我也遇到了很多问题与困难如对于业务的不理解导致走了很多弯路前期方案一直改了删删了改浪费了很多时间如对于数据库的一些理论知识也遗忘了很多如关系转换图第几范式等解决方案也很简单第一就是不断熟悉业务多想想具体的应用场景其次对于数据库的基础知识也需要对其进行专门的复习与记忆并不断在项目中实践这将是一个长期的过程需要不断进行综上所述在完成这次作业的过程中我学到了很多虽然也遇到了很多困难但有这些困难得到的经验与教训是十分宝贵的我在以后的学习和工作中也将不断总结经验不断提高自己的能力取得更好的成果参考文献曾遂今音乐网络传播与当代人的音乐观中国音乐王梦雪互联网音乐盈利模式新探索当代经济田洁网络音乐传播的传播特性与现状研究科技与创新王珊萨师煊数据库系统概论第版高等教育出版社年郑阿奇主编实用教程第版电子工业出版社洪学杭戴金波方权宇王轩宇刘骐嘉刘梦泉基于数据库的戒烟的设计与研究电脑编程技巧与维护刘文远基于逆向超图的从关系模式到改进的第三范式的分解计算机工程与科学贾玲关系数据库规范化设计理论探析武警学院学报唐扬熊伟陈宏盛景宁数据库触发器机制的设计与实现电子技术应用王瑶茜马林虹浅析软件开发测试体系核心模块组成电子制作宋婷玲关于计算机软件开发中的数据库测试技术研究信息记录材料',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-06-29 00:00:00',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://fujia-233.github.io" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">应用</div><div class="back-menu-list"><a class="back-menu-item" href="/album/" title="相册集"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c7e4254b.png" alt="相册集"/><span class="back-menu-item-text">相册集</span></a><a class="back-menu-item" href="/bangumis/" title="追番页"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a7395.png" alt="追番页"/><span class="back-menu-item-text">追番页</span></a><a class="back-menu-item" href="/music/?id=893451151&amp;server=netease" title="音乐馆"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80d76f8.png" alt="音乐馆"/><span class="back-menu-item-text">音乐馆</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">我的</div><div class="back-menu-list"><a class="back-menu-item" href="/essay/" title="随记"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c815febe.png" alt="随记"/><span class="back-menu-item-text">随记</span></a><a class="back-menu-item" href="/comments/" title="留言"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a11d8.png" alt="留言"/><span class="back-menu-item-text">留言</span></a><a class="back-menu-item" href="/about/" title="关于我"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981a34c225.png" alt="关于我"/><span class="back-menu-item-text">关于我</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">附加</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/essay/"><span> 随记</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><span> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><span> 关于我</span></a></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 1.05rem;">C语言<sup>1</sup></a><a href="/tags/Java/" style="font-size: 1.05rem;">Java<sup>7</sup></a><a href="/tags/Nginx/" style="font-size: 1.05rem;">Nginx<sup>1</sup></a><a href="/tags/Typora/" style="font-size: 1.05rem;">Typora<sup>1</sup></a><a href="/tags/Web/" style="font-size: 1.05rem;">Web<sup>1</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 1.05rem;">人工智能<sup>7</sup></a><a href="/tags/%E4%BD%9C%E4%B8%9A/" style="font-size: 1.05rem;">作业<sup>17</sup></a><a href="/tags/%E5%86%B3%E7%AD%96%E6%A0%91/" style="font-size: 1.05rem;">决策树<sup>1</sup></a><a href="/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" style="font-size: 1.05rem;">多媒体<sup>1</sup></a><a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 1.05rem;">安卓<sup>2</sup></a><a href="/tags/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" style="font-size: 1.05rem;">循环神经网络<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 1.05rem;">技术<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 1.05rem;">数据库<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.05rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 1.05rem;">日记<sup>1</sup></a><a href="/tags/%E6%B5%8E%E5%8D%97/" style="font-size: 1.05rem;">济南<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 1.05rem;">深度学习<sup>3</sup></a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.05rem;">算法<sup>3</sup></a><a href="/tags/%E8%81%8C%E4%B8%9A/" style="font-size: 1.05rem;">职业<sup>1</sup></a><a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 1.05rem;">论文<sup>1</sup></a><a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 1.05rem;">音乐<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">五月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">十二月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/" itemprop="url">学习日常</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Java/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Java</span></a><a class="article-meta__tags" href="/tags/%E4%BD%9C%E4%B8%9A/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>作业</span></a><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>数据库</span></a><a class="article-meta__tags" href="/tags/%E9%9F%B3%E4%B9%90/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>音乐</span></a></span></div></div><h1 class="post-title" itemprop="name headline">X-Music音乐平台</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2024-06-28T16:00:00.000Z" title="发表于 2024-06-29 00:00:00">2024-06-29</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2024-06-28T16:00:00.000Z" title="更新于 2024-06-29 00:00:00">2024-06-29</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">8.5k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>27分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为北京"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>北京</span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/#post-comment" tabindex="-1"><span id="twikoo-count"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="http://example.com/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/"><header><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/" itemprop="url">学习日常</a><a href="/tags/Java/" tabindex="-1" itemprop="url">Java</a><a href="/tags/%E4%BD%9C%E4%B8%9A/" tabindex="-1" itemprop="url">作业</a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" tabindex="-1" itemprop="url">数据库</a><a href="/tags/%E9%9F%B3%E4%B9%90/" tabindex="-1" itemprop="url">音乐</a><h1 id="CrawlerTitle" itemprop="name headline">X-Music音乐平台</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">附加</span><time itemprop="dateCreated datePublished" datetime="2024-06-28T16:00:00.000Z" title="发表于 2024-06-29 00:00:00">2024-06-29</time><time itemprop="dateCreated datePublished" datetime="2024-06-28T16:00:00.000Z" title="更新于 2024-06-29 00:00:00">2024-06-29</time></header><h1 id="X-Music音乐平台"><a href="#X-Music音乐平台" class="headerlink" title="X-Music音乐平台"></a><strong>X-Music音乐平台</strong></h1><h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><h3 id="1-1-项目背景"><a href="#1-1-项目背景" class="headerlink" title="1.1 项目背景"></a>1.1 项目背景</h3><p>​		现如今，互联网技术在迅速发展的过程中体现了其快速准确便捷的特点，人们对在线音乐网站的需求也在日益增加。为了更好的提高对音乐信息管理的高效性，为了更好的跟随时代信息的高效性，一个在线音乐网站的建立是必要的。在网站上可以实现对音乐相关信息的管理，建立数据库后将一系列信息存储到数据库中，实现用户对相应音乐的搜索和实现管理员对音乐相关信息的管理，对于管理员和用户来讲都是具有极大的帮助的，在线音乐就是在这个基础上设计的。</p>
+<p>​		根据上面的分析，在图书馆和网站上搜集有关的资料，也可以通过线下发传单或以电子形式进行调查问表的填写，依据这些信息了解到现实实际中用户对在线音乐网站有哪些需求，希望网站上都有什么功能，如此在系统实现后能够被广大的用户所接受和推广[2]。</p>
+<h3 id="1-2-系统名称"><a href="#1-2-系统名称" class="headerlink" title="1.2 系统名称"></a>1.2 系统名称</h3><p>​		本次数据库设计大作业开发的系统名称为：X-Music音乐平台。</p>
+<h3 id="1-3-开发环境"><a href="#1-3-开发环境" class="headerlink" title="1.3 开发环境"></a>1.3 开发环境</h3><p>本次数据库设计的环境为：</p>
+<p>JDK： Java8</p>
+<p>mysql：MySQL8.0</p>
+<p>node：v14.17.3</p>
+<p>redis：5.0.8</p>
+<p>IDE：IntelliJ IDEA2020 &#x2F; VSCode</p>
+<h2 id="二、需求分析"><a href="#二、需求分析" class="headerlink" title="二、需求分析"></a>二、需求分析</h2><p>​		从用户方面：用户可以创建账户并登录系统。可以对个人信息进行管理，用户可以修改个人资料，包括昵称、头像、性别、年龄、地区等。用户可以浏览公共歌单，创建并且编辑和删除自己的歌单。用户可以在线播放和下载音乐。收藏管理：可以收藏音乐和歌单，并管理自己的收藏列表。评论互动：用户可以在音乐或歌单下发表评论，并对评论进行点赞、转发和回复。个性化推荐：系统根据用户行为和偏好提供个性化的音乐和歌单推荐[3]。</p>
+<p>​		从管理员方面：管理员可以查看、审核用户信息，处理用户问题。歌单管理：管理员可以审核歌单内容，管理违规歌单。音乐库管理：管理员可以上传、更新、删除音乐库中的音乐。评论监管：管理员可以监控、审核用户评论，处理不当言论。管理员可以配置系统设置，如权限分配、功能开关等。可以生成系统使用情况的统计报告。管理员可以设置安全策略，管理用户权限。</p>
+<p>​		从系统设计方面应考虑：系统反应度：多个人同时在线的时候对一个事件的反应时间要足够短。界面效果：系统界面一目了然、功能划分明确，能够快速找到需要的功能并操作。储存性能高：在线音乐网站需要存储大量的歌曲信息和相对应的歌手的信息，以及用户注册信息来满足用户的需求，所以要求数据库要有较高的存储量。简单操作：因为音乐没有年龄之分，所以该系统的受用群体可以是所有的用户，所以为了方便用户操作和提高系统的使用度，要求系统功能一目了然，方便用户进行音乐的搜索播放等操作。</p>
+<h2 id="三、系统的基础数据流图"><a href="#三、系统的基础数据流图" class="headerlink" title="三、系统的基础数据流图"></a>三、系统的基础数据流图</h2><p>(1)用户管理：用户可以注册、登录、修改个人信息、注销账号等；</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212191854822.png" alt="image-20241212191854822"></p>
+<p>(2)歌单管理：用户可以创建、编辑、删除自己的歌单，可以将音乐添加到歌单中，可以查看、收藏其他用户的歌单，可以分享自己的歌单到社交媒体等；</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212191906870.png" alt="image-20241212191906870"></p>
+<p>(3)收藏管理：用户可以收藏自己喜欢的音乐、歌单、歌手等，可以查看、取消收藏、管理自己的收藏夹；</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212191913819.png" alt="image-20241212191913819"></p>
+<p>(4)音乐管理：系统可以存储音乐的各种信息，包括歌曲、专辑、歌手、流派，歌词等。可以查询音乐的歌词，播放地址等；</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212191919891.png" alt="image-20241212191919891"></p>
+<p>(5)评论管理：用户可以评论别人的歌曲，歌单，可以查看自己的评论，删除自己的评论。</p>
+<h2 id="四、功能分析"><a href="#四、功能分析" class="headerlink" title="四、功能分析"></a>四、功能分析</h2><h3 id="4-1-功能需求及数据需求分析"><a href="#4-1-功能需求及数据需求分析" class="headerlink" title="4.1 功能需求及数据需求分析"></a>4.1 功能需求及数据需求分析</h3><p>​		(1)用户模块：实现用户的注册、登录、修改个人信息、注销账号等功能，以及用户的身份验证、权限控制、个性化设置等功能。用户模块的数据需求包括用户的基本信息（用户名、密码、邮箱、手机号、昵称、头像、性别、年龄、地区）；</p>
+<p>​		(2)歌单模块：实现歌单的创建、编辑、删除等功能，歌单模块的数据需求包括歌单的基本信息（歌单名、创建者、创建时间、描述、封面）、歌单的内容信息（包含的音乐、音乐的顺序、音乐的数量）、歌单的统计信息（收藏量、播放量、评分、评论数）；</p>
+<p>​		(3)收藏模块：实现收藏的添加、取消、查看、管理等功能，收藏模块的数据需求包括收藏的基本信息（收藏的类型、收藏的对象、收藏的时间）、收藏的统计信息（收藏的数量、收藏的评分）；</p>
+<p>​		(4)音乐模块：实现音乐的存储、展示、播放、下载等功能，音乐模块的数据需求包括音乐的基本信息（如歌曲名、歌手名、专辑名、时长、大小、格式、封面、歌词等）、音乐的统计信息（如播放量、下载量、收藏量、评分、评论数等）等；</p>
+<p>​		(5)评论模块：实现用户在不同音乐，歌单下进行评论评论模块的数据需求包括评论的基本信息（如评论的用户，评论的时间，评论的内容等）、评论的统计信息（如点赞量，转发量，回复量等）。</p>
+<h3 id="4-2-业务规则分析"><a href="#4-2-业务规则分析" class="headerlink" title="4.2 业务规则分析"></a>4.2 业务规则分析</h3><p>​		(1)用户规则：用户必须注册并登录才能使用系统的功能，用户可以修改自己的个人信息，可以注销自己的账号，但不能恢复已注销的账号，用户可以给系统提供反馈信息，系统会根据用户的反馈信息改进服务质量；</p>
+<p>​		(2)歌单规则：歌单必须有一个唯一的id，系统不会存储或展示重复的歌单，歌单必须有一个创建者，系统会记录歌单的创建者和创建时间，歌单必须有一个描述，系统会展示歌单的描述，系统会展示歌单的内容和音乐的顺序；</p>
+<p>​		(3)收藏规则：收藏必须有一个唯一的id，系统不会存储或展示重复的收藏，收藏必须有一个对象，系统会记录收藏的对象和收藏的时间，收藏除了id与收藏名其他都可以为空；</p>
+<p>​		(4)音乐规则：每首音乐都有1个唯一的id，系统不会存储或展示重复的音乐，系统会记录音乐的播放地址、歌手、歌曲名称、歌词信息等；</p>
+<p>​		(5)评论规则：每个评论都会有1个唯一的id，系统不会存储id重复的评论，评论只限于歌曲与歌单。</p>
+<p>​		X-Music音乐平台的数据库功能模块结构设计如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212192109809.png" alt="image-20241212192109809"></p>
+<h2 id="五、数据库系统设计—概念设计"><a href="#五、数据库系统设计—概念设计" class="headerlink" title="五、数据库系统设计—概念设计"></a>五、数据库系统设计—概念设计</h2><h3 id="5-1-概念结构设计"><a href="#5-1-概念结构设计" class="headerlink" title="5.1 概念结构设计"></a>5.1 概念结构设计</h3><p>​		概念结构设计是数据库设计的关键阶段之一。它的定义可以概括为：通过对用户需求进行综合、归纳与抽象，将现实世界中的客观事物及其相互联系转化为一种独立于具体数据库管理系统的概念模型的过程。</p>
+<p>​		概念结构设计具体来说就是运用各种概念数据模型的表示方法，如 E-R 图（实体-联系图）等[4]，来描述数据库所需要表示和存储的信息结构，包括实体、实体的属性以及实体之间的关系。这个阶段主要关注的是对业务领域的理解和建模，而不涉及具体的数据库实现细节，如数据类型、存储方式等。它为后续的逻辑结构设计提供了清晰的蓝图和指导，确保数据库能够准确、有效地反映业务需求和数据关系[5]。</p>
+<h3 id="5-2-概念结构的特点和设计方法"><a href="#5-2-概念结构的特点和设计方法" class="headerlink" title="5.2 概念结构的特点和设计方法"></a>5.2 概念结构的特点和设计方法</h3><p>​		概念结构具有抽象性，综合性，稳定性和可理解性四大特性。常见的概念结构设计方法有自顶向下，自底向上，逐步扩张和混合策略等。</p>
+<h4 id="5-2-1-命名规范"><a href="#5-2-1-命名规范" class="headerlink" title="5.2.1 命名规范"></a>5.2.1 命名规范</h4><p>(1)实体集的名称应该是单数名词，且首字母大写，例如：User、Music、Playlist等。</p>
+<p>(2)属性的名称应该是小写字母，且用下划线分隔单词，例如：user_id、song_name、playlist_id等。</p>
+<p>(3)联系集的名称应该是两个相关实体集的名称用下划线连接，例如：User_PlayList、PlayList_Music、User_Favor等。</p>
+<p>(4)主键属性的名称应该是实体集的名称加上_id，例如：user_id、playlist_id、song_id等。</p>
+<p>(5)外键属性的名称应该是参照实体集的主键属性的名称，例如：creator_id、song_id、object_id等。</p>
+<h4 id="5-2-2-实体集及属性"><a href="#5-2-2-实体集及属性" class="headerlink" title="5.2.2 实体集及属性"></a>5.2.2 实体集及属性</h4><p>(1)用户（User）：用户是系统的基本使用者，用户可以注册、登录、修改个人信息、注销账号等。用户实体集的属性有：</p>
+<p>​		user_id：用户的唯一标识，主键，char类型，非空。</p>
+<p>​		user_name：用户的用户名，用于登录，唯一，字符串类型，非空，长度不超过255个字符。</p>
+<p>​		user_password：用户的密码，用于登录，字符串类型，非空，长度不超过20个字符。</p>
+<p>​		email：用户的邮箱，用于验证和找回密码，唯一，字符串类型，非空，长度不超过50个字符。</p>
+<p>​		phone：用户的手机号，用于验证和找回密码，唯一，字符串类型，非空，长度为11个字符。</p>
+<p>​		nickname：用户的昵称，用于展示，字符串类型，非空，长度不超过20个字符。</p>
+<p>​		gender：用户的性别，用于展示，字符串类型，非空，长度为1个字符，只能是’男’或’女’。</p>
+<p>​		age：用户的年龄，用于展示，整数类型，非空，范围在0到120之间。</p>
+<p>(2)音乐（Music）：音乐是系统的基本内容，音乐可以被存储、展示、播放、下载等。音乐实体集的属性有：</p>
+<p>​		music_id：音乐的唯一标识，主键，char类型，非空。</p>
+<p>​		music_name：音乐的名称，用于展示，字符串类型，非空，长度不超过50个字符。</p>
+<p>​		art_id：音乐的歌手的id，用于展示，字符串类型，非空，长度10个字符。</p>
+<p>​		album：音乐的专辑名称，用于展示，字符串类型，非空，长度不超过50个字符。</p>
+<p>​		cover_url：音乐的封面，用于展示，字符串类型，非空，长度不超过100个字符，存储图片的URL。</p>
+<p>​		lyric_url：音乐的歌词，用于展示，字符串类型，非空，长度不超过100个字符，存储歌词的URL。</p>
+<p>​		type_id：音乐的风格，用于分类，字符串类型，非空，长度不超过20个字符。</p>
+<p>​		play_count：音乐的播放量，用于统计，整数类型，非空，范围在0到1000000000之间，初始值为0。</p>
+<p>​		collect_count：音乐的收藏量，用于统计，整数类型，非空，范围在0到1000000000之间，初始值为0。</p>
+<p>​		play_url：音乐的播放地址，字符串类型，非空，长度不超过100个字符，存储歌曲的URL。</p>
+<p>(3)歌单（Playlist）：歌单是系统的基本组织形式，歌单可以被创建、编辑、删除等。歌单实体集的属性有：</p>
+<p>​		playlist_id：歌单的唯一标识，主键，整数类型，非空，自增。</p>
+<p>​		playlist_name：歌单的名称，用于展示，字符串类型，非空，长度不超过50个字符。</p>
+<p>​		user_id：歌单的创建者，用于展示，外键，引用用户实体集的user_id属性，整数类型，非空。</p>
+<p>​		create_time：歌单的创建时间，用于展示，日期时间类型，非空，格式为’YYYY-MM-DD HH:MM:SS’。</p>
+<p>​		description：歌单的描述，用于展示，字符串类型，非空，长度不超过500个字符。</p>
+<p>​		cover：歌单的封面，用于展示，字符串类型，非空，长度不超过100个字符，存储图片的URL。</p>
+<p>​		tag_id：歌单的标签，用于分类，字符串类型，非空，长度不超过10个字符。</p>
+<p>(4)收藏（Collect）：收藏是系统的基本交互形式，收藏可以被添加、取消、查看、管理等。收藏实体集的属性有：</p>
+<p>​		collect_id：收藏的唯一标识，主键，整数类型，非空，自增。</p>
+<p>​		collect_type：收藏的类型，用于分类，字符串类型，非空，长度为2个字符，只能是’歌曲’或’歌单’，分别表示收藏的对象是音乐或歌单。</p>
+<p>​		user_id：收藏的用户，用于展示，外键，引用 User实体集的外键。</p>
+<p>​		collect_time：收藏的创建时间，用于展示，日期时间类型，非空，格式为’YYYY-MM-DD HH:MM:SS’。</p>
+<p>​		description：收藏的描述，用于展示，字符串类型，非空，长度不超过500个字符。</p>
+<p>(5)评论（Comment）：评论是系统的基本内容，评论可以被存储、展示等。评论实体集的属性有：</p>
+<p>​		con_id：评论的唯一标识，主键，char类型，非空。</p>
+<p>​		user_id：用户的唯一标识，char类型，非空。</p>
+<p>​		content：评论的内容，char类型，非空。</p>
+<p>​		item_id：被评论对象的唯一标识，char类型，非空。</p>
+<p>​		item_type：被评论对象的类型，代表着歌单或歌曲，enum类型，非空。</p>
+<h3 id="5-3-系统的E-R图"><a href="#5-3-系统的E-R图" class="headerlink" title="5.3 系统的E-R图"></a>5.3 系统的E-R图</h3><h4 id="5-3-1-实体—联系方法-Entity-Relationship"><a href="#5-3-1-实体—联系方法-Entity-Relationship" class="headerlink" title="5.3.1 实体—联系方法(Entity-Relationship)"></a>5.3.1 实体—联系方法(Entity-Relationship)</h4><p>​		根据实际需求得出，各实体之间的联系如下：</p>
+<p>​		(1)用户_歌单（User_Playlist）：用户和歌单之间的联系集，表示用户可以创建、编辑、删除自己的歌单；</p>
+<p>​		(2)歌单_音乐（Playlist_Music）：歌单和音乐之间的联系集，表示歌单可以包含一个或多个音乐，音乐可以属于一个或多个歌单，歌单的创建者可以将音乐添加到歌单中，也可以从歌单中移除音乐，歌单的内容和音乐的顺序可以被编辑；</p>
+<p>​		(3)用户_收藏（User_Collect）：用户和收藏之间的联系集，表示用户可以收藏自己喜欢的音乐、歌单、歌手等，也可以查看、取消收藏、管理自己的收藏夹 ；</p>
+<p>​		(4)收藏_音乐（Collect_Music）：收藏和音乐的联系集，表示一首歌可以被一个或多收藏夹收藏，一个收藏夹可以收藏一个或多个音乐，用户可以向收藏夹中增添、删除音乐；</p>
+<p>​		(5)收藏_歌单（Collect_Playlist）：收藏和歌单的联系集，表示一个歌单可以被一个或多收藏夹收藏，一个收藏夹可以收藏一个或多个歌单，用户可以向收藏夹中增添、删除歌单；</p>
+<p>​		(6)评论_音乐（Comment_Music）：评论音乐的联系集，表示一首歌可以拥有多个评论，但同一个评论只能属于一首歌，用户可以自己添加、删除评论；</p>
+<p>​		(7)评论_歌单（Comment_Playlist）：评论歌单的联系集，表示一个歌单可以拥有多个评论，但同一个评论只能属于一歌单，用户可以自己添加、删除评论。</p>
+<h4 id="5-3-2-E-R图设计"><a href="#5-3-2-E-R图设计" class="headerlink" title="5.3.2 E-R图设计"></a>5.3.2 E-R图设计</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212192448576.png" alt="image-20241212192448576"></p>
+<h2 id="六、数据库系统设计—逻辑结构设计"><a href="#六、数据库系统设计—逻辑结构设计" class="headerlink" title="六、数据库系统设计—逻辑结构设计"></a>六、数据库系统设计—逻辑结构设计</h2><h3 id="6-1-关系数据库的基本概念"><a href="#6-1-关系数据库的基本概念" class="headerlink" title="6.1 关系数据库的基本概念"></a>6.1 关系数据库的基本概念</h3><p>​		由实体间的联系导出关系模型，关系模型在关系数据库中即为一个二维表。</p>
+<p>​		(1)记录：二维表中的一行，表示一个实体。</p>
+<p>​		(2)字段：二维表的列，表示实体的属性、特征。</p>
+<p>​		(3)主键：列或列的组合，能唯一地标识一行。表中只有一个主键，主键不允许NULL或重复。</p>
+<p>​		(4)外键：表中某一字段与另一表中的主键相对应，则该字段称为表的外键。</p>
+<ul>
+<li><p>外键表示了两个表之间的联系。</p>
+</li>
+<li><p>主键所在的表称为主表，外键所在的表为从表。</p>
+<p>​	关系模型即二维表，要满足数据完整性的要求。</p>
+</li>
+<li><p>数据完整性：指数据的正确性和可靠性。</p>
+</li>
+<li><p>实体完整性：保证表中所有行具有唯一性。</p>
+</li>
+<li><p>域完整性：保证给定字段的数据有效性。</p>
+</li>
+<li><p>参照完整性：也称引用完整性，确保相关联的表之间数据的一致性。</p>
+</li>
+<li><p>用户自定义完整性：用户根据实际系统要求，定义的约束条件，涉及到的数据必须满足语义要求。</p>
+</li>
+</ul>
+<h3 id="6-2-E-R图向关系模型转换的原则"><a href="#6-2-E-R图向关系模型转换的原则" class="headerlink" title="6.2 E-R图向关系模型转换的原则"></a>6.2 E-R图向关系模型转换的原则</h3><p>​		(1)如果两个关系是1:1的联系，可以在两个实体类型转换成的两个关系模式中任意一个关系模式中加入另一个关系模式的码和联系类型的属性[6]。 </p>
+<p>​		(2)如果两个关系是1:m的联系，则在n端实体类型转换成的关系模式中加入1端实体类型的码和联系类型的属性。</p>
+<p>​		(3)如果两个关系是m:n的联系，则将联系类型也转换成关系模式，其属性为两端实体类型的码加上联系类型的属性，而码为两端实体码的组合。</p>
+<h3 id="6-3-关系模式"><a href="#6-3-关系模式" class="headerlink" title="6.3 关系模式"></a>6.3 关系模式</h3><p>​		经过以上E-R图设计，再对相关表结构优化后得到如下设计：</p>
+<p>​		(1)User（user_id、user_name、user_password、email、phone、nickname、gender、age）</p>
+<p>​		(2)Music（music_id、music_name、art_id、art_name、album、cover_url、lyric_url、type_id、type_name、play_count、collect_count、play_url）</p>
+<p>​		(3)Playlist（playlist_id、playlist_name、user_id、create_time、description、cover_url、tag_id、tag_name）</p>
+<p>​		(4)PlaylistDetails（playlist_id、music_id）</p>
+<p>​		(5)Collect（collect_id、user_id、collect_time、collect_name）</p>
+<p>​		(6)CollectDetailsMusic（collect_id、item_id）</p>
+<p>​		(7)CollectDetailsPlaylist（collect_id、item_id）</p>
+<p>​		(8)Comment（con_id、user_id、content、item_id、tiem_type）</p>
+<h4 id="6-3-1-将联系转换成关系模式"><a href="#6-3-1-将联系转换成关系模式" class="headerlink" title="6.3.1 将联系转换成关系模式"></a>6.3.1 将联系转换成关系模式</h4><p>​		(1)用户_歌单（user_id、user_name、user_password、email、phone、nickname、gender、age、playlist_id）</p>
+<p>​		(2)歌单_音乐（playlist_id、music_id）</p>
+<p>​		(3)用户_收藏（user_id、user_name、user_password、email、phone、nickname、gender、age、collect_id）</p>
+<p>​		(4)收藏_音乐（collect_id、music_id）</p>
+<p>​		(5)收藏_歌单（collect_id、playlist_id）</p>
+<p>​		(6)评论_音乐（music_id、music_name、art_id、art_name、album、cover_url、lyric_url、type_id、type_name、play_count、collect_count、play_url、con_id）</p>
+<p>​		(7)评论_歌单（playlist_id、playlist_name、user_id、create_time、description、cover_url、tag_id、tag_name、con_id）</p>
+<h4 id="6-3-2-对关系模式进行规范化"><a href="#6-3-2-对关系模式进行规范化" class="headerlink" title="6.3.2 对关系模式进行规范化"></a>6.3.2 对关系模式进行规范化</h4><p>​		这个数据库满足第一范式（1NF），因为每个表中的所有属性都是不可再分的原子值。</p>
+<p>​		这个数据库满足第二范式（2NF），因为每个表中的非主属性都完全函数依赖于主键，没有部分函数依赖的情况。例如，Music表中的所有非主属性都完全函数依赖于主键music_id，而不是部分依赖于music_name或art_name等。</p>
+<p>​		这个数据库不满足第三范式（3NF）：</p>
+<p>​		因为type_name和tag_name字段并不能由music_id和playlist_id得出，因此得出存在相关传递依赖：</p>
+<p>​		type_id→type_name</p>
+<p>​		tag_id→tag_name</p>
+<p>​		art_id→art_name</p>
+<p>​		另外因为另外CollectDetailsMusic表和CollectDetailsPlaylist表中的数据有着很多重合，外加上表数量很多后期难以维护，所以我将这两个合并成一张CollectDetails表，再加上一个字段item_type用以区分item_id是Music_id还是Playlist_id</p>
+<p>​		经过修改后得到以下数据表：</p>
+<p>​		(1)User（user_id、user_name、user_password、email、phone、nickname、gender、age）</p>
+<p>​		(2)Music（music_id、music_name、art_id、album、cover_url、lyric_url、type_id、play_count、collect_count、play_url）</p>
+<p>​		(3)Playlist（playlist_id、playlist_name、user_id、create_time、description、cover_url、tag_id）</p>
+<p>​		(4)PlaylistDetails（playlist_id、music_id）</p>
+<p>​		(5)Collect（collect_id、user_id、collect_time、collect_name）</p>
+<p>​		(6)CollectDetails（collect_id、item_id、item_type）</p>
+<p>​		(7)Comment（con_id、user_id、content、item_id、item_type）</p>
+<p>​		(8)MusicType（type_id、type_name）</p>
+<p>​		(9)PlaylistType（tag_id、tag_name）</p>
+<p>​		(10)Artist（art_id，art_name）</p>
+<p>​		这个数据库满足第三范式（3NF）[7]，因为每个表中的非主属性都不传递函数依赖于主键，也就是说，不存在非主属性之间的依赖关系。例如，Music表中的type_id属性不依赖于music_name属性，而只依赖于主键user_id。</p>
+<p>​		经过以上规范化处理后，关系模式更加简洁、清晰，并且减少了数据冗余和不一致性。同时，也提高了数据库的性能和可维护性[8]。</p>
+<h2 id="七、数据库系统设计—物理结构设计"><a href="#七、数据库系统设计—物理结构设计" class="headerlink" title="七、数据库系统设计—物理结构设计"></a>七、数据库系统设计—物理结构设计</h2><p>​		本数据库一共设计了10张表，User表用来存储用户数据、Music表用来存储音乐数据、Artist表用来存储作者数据、Playlist表用来存储歌单的定义数据、PlaylistDetails表用来存储歌单中具体歌曲列表数据、Collect表用来存储收藏的定义数据、CollectDetails表用来存储收藏的具体项目数据、Comment表用来存储评论数据、MusicType表用来存储音乐的风格数据、PlaylistType表用来存储歌单的类型数据；</p>
+<p>​		本数据库一共定义了12个索引，其中10个索引均为主键索引，在定义主键时会自动生成，2个唯一索引，分别是User表中的phone和email字段。</p>
+<p>​		表结构如图所示，以下用三线表进行表的物理结构设计展示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212192829485.png" alt="image-20241212192829485"></p>
+<h3 id="7-1-系统包含表的物理结构设计"><a href="#7-1-系统包含表的物理结构设计" class="headerlink" title="7.1 系统包含表的物理结构设计"></a>7.1 系统包含表的物理结构设计</h3><p>(1)User表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>user_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>user_name</td>
+<td>varchar(50)</td>
+<td>NOT NULL</td>
+<td>用户名</td>
+</tr>
+<tr>
+<td>3</td>
+<td>user_password</td>
+<td>varchar(20)</td>
+<td>NOT NULL</td>
+<td>密码</td>
+</tr>
+<tr>
+<td>4</td>
+<td>email</td>
+<td>varchar(50)</td>
+<td>NOT NULL</td>
+<td>邮箱</td>
+</tr>
+<tr>
+<td>5</td>
+<td>phone</td>
+<td>char(11)</td>
+<td>NOT NULL</td>
+<td>手机号</td>
+</tr>
+<tr>
+<td>6</td>
+<td>nickname</td>
+<td>varchar(50)</td>
+<td>NOT NULL</td>
+<td>昵称</td>
+</tr>
+<tr>
+<td>7</td>
+<td>gender</td>
+<td>enum</td>
+<td>NULL</td>
+<td>性别</td>
+</tr>
+<tr>
+<td>8</td>
+<td>age</td>
+<td>int</td>
+<td>NULL</td>
+<td>年龄</td>
+</tr>
+</tbody></table>
+<p>(2)Music表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>music_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>music_name</td>
+<td>varchar（50）</td>
+<td>NOT NULL</td>
+<td>名称</td>
+</tr>
+<tr>
+<td>3</td>
+<td>art_id</td>
+<td>char(10)</td>
+<td>NOT NULL</td>
+<td>歌手id</td>
+</tr>
+<tr>
+<td>4</td>
+<td>album</td>
+<td>varchar（50）</td>
+<td>NULL</td>
+<td>专辑名称</td>
+</tr>
+<tr>
+<td>5</td>
+<td>cover_url</td>
+<td>varchar（100）</td>
+<td>NOT NULL</td>
+<td>封面</td>
+</tr>
+<tr>
+<td>6</td>
+<td>lyric_url</td>
+<td>varchar（100）</td>
+<td>NULL</td>
+<td>歌词</td>
+</tr>
+<tr>
+<td>7</td>
+<td>type_id</td>
+<td>char(5)</td>
+<td>NOT NULL</td>
+<td>风格</td>
+</tr>
+<tr>
+<td>8</td>
+<td>play_count</td>
+<td>bigint</td>
+<td>NULL</td>
+<td>播放量</td>
+</tr>
+<tr>
+<td>9</td>
+<td>collect_count</td>
+<td>bigint</td>
+<td>NULL</td>
+<td>收藏量</td>
+</tr>
+<tr>
+<td>10</td>
+<td>play_url</td>
+<td>varchar（100）</td>
+<td>NOT NULL</td>
+<td>播放地址</td>
+</tr>
+</tbody></table>
+<p>(3)Playlist表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>playlist_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>playlist_name</td>
+<td>Varchar（50）</td>
+<td>NOT NULL</td>
+<td>名称</td>
+</tr>
+<tr>
+<td>3</td>
+<td>user_id</td>
+<td>char(10)</td>
+<td>NOT NULL</td>
+<td>创建者</td>
+</tr>
+<tr>
+<td>4</td>
+<td>create_time</td>
+<td>date</td>
+<td>NOT NULL</td>
+<td>创建时间</td>
+</tr>
+<tr>
+<td>5</td>
+<td>decription</td>
+<td>text</td>
+<td>NULL</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>6</td>
+<td>cover_url</td>
+<td>varchar（100）</td>
+<td>NOT NULL</td>
+<td>封面</td>
+</tr>
+<tr>
+<td>7</td>
+<td>tag_id</td>
+<td>char(5)</td>
+<td>NOT NULL</td>
+<td>标签</td>
+</tr>
+</tbody></table>
+<p>(4)PlaylistType表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>tag_id</td>
+<td>char(5)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>tag_name</td>
+<td>varchar(10)</td>
+<td>NOT NULL</td>
+<td>标签</td>
+</tr>
+</tbody></table>
+<p>(5)PlaylistDetails表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>playlist_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>歌单id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>music_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>音乐id</td>
+</tr>
+</tbody></table>
+<p>(6)Collect表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>collect_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>user_id</td>
+<td>char(10)</td>
+<td>NOT NULL</td>
+<td>用户</td>
+</tr>
+<tr>
+<td>3</td>
+<td>collect_time</td>
+<td>date</td>
+<td>NOT NULL</td>
+<td>创建时间</td>
+</tr>
+<tr>
+<td>4</td>
+<td>collect_name</td>
+<td>varchar(20)</td>
+<td>NULL</td>
+<td>名称</td>
+</tr>
+</tbody></table>
+<p>(7)CollectDetails表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>collect_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>收藏id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>list_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>收藏项目id</td>
+</tr>
+<tr>
+<td>3</td>
+<td>item_type</td>
+<td>enum</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>收藏类型</td>
+</tr>
+</tbody></table>
+<p>(8)MusicType表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>type_id</td>
+<td>char(5)</td>
+<td>主键&#x2F;NONULL</td>
+<td>id</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>type_name</td>
+<td>Varchar（50）</td>
+<td>NOT NULL</td>
+<td>音乐风格</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>(9)Comment表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>con_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>user_id</td>
+<td>char(10)</td>
+<td>NOT NULL</td>
+<td>评论用户id</td>
+</tr>
+<tr>
+<td>3</td>
+<td>content</td>
+<td>text</td>
+<td>NOT NULL</td>
+<td>内容</td>
+</tr>
+<tr>
+<td>4</td>
+<td>item_id</td>
+<td>char(10)</td>
+<td>NOT NULL</td>
+<td>被评论id</td>
+</tr>
+<tr>
+<td>5</td>
+<td>item_type</td>
+<td>enum</td>
+<td>NOT NULL</td>
+<td>被评论类型</td>
+</tr>
+</tbody></table>
+<p>(10)Artist表</p>
+<table>
+<thead>
+<tr>
+<th>列序号</th>
+<th>列名</th>
+<th>类型</th>
+<th>取值说明</th>
+<th>列含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>art_id</td>
+<td>char(10)</td>
+<td>主键&#x2F;NOT NULL</td>
+<td>id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>art_name</td>
+<td>varchar(50)</td>
+<td>NOT NULL</td>
+<td>姓名</td>
+</tr>
+</tbody></table>
+<h2 id="八、存储过程和触发器设计"><a href="#八、存储过程和触发器设计" class="headerlink" title="八、存储过程和触发器设计"></a>八、存储过程和触发器设计</h2><p>​		(1)这个触发器[9]会在向 CollectDetails 表插入数据之前检查 item_id 是否合法。如果 item_type 的值为 “歌单”，则 item_id 需要在 Playlist 表的 Playlist_id 字段内；如果 item_type 值为 “歌曲”，则 item_id 需要在 Music 表的 music_id 字段内。如果不匹配，触发器会抛出一个错误，错误内容为 “数据不匹配，请重新输入”。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212192958078.png" alt="image-20241212192958078"></p>
+<p>​		(2)这个存储过程接受两个 music_id 作为输入，比较这两个 music_id 对应的 play_count。如果第一个 music_id 的 play_count 大于或等于第二个 music_id 的 play_count，则输出 0；否则，输出 1。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193008683.png" alt="image-20241212193008683"></p>
+<p>​		(3)这个存储函数接受一个 playlist_id 作为输入，返回这个 playlist_id 对应的歌单中的歌曲总数。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193016047.png" alt="image-20241212193016047"></p>
+<p>​		(4)这个触发器会在向 Comment 表插入数据之前检查 item_id 是否合法。如果 item_type 的值为 “歌单”，则 item_id 需要在 Playlist 表的 Playlist_id 字段内；如果 item_type 值为 “歌曲”，则 item_id 需要在 Music 表的 music_id 字段内。如果不匹配，触发器会抛出一个错误，错误内容为 “数据不匹配，请重新输入”。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193024685.png" alt="image-20241212193024685"></p>
+<p>​		(5)这个触发器会在 User 表的 user_id 被修改后，自动更新 Collect、Comment 和 Playlist 表中的对应 user_id。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193033637.png" alt="image-20241212193033637"></p>
+<p>​		(6)这个触发器会在 MusicType 表的 type_id 被修改后，自动更新 Music 表中的对应 type_id。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193042407.png" alt="image-20241212193042407"></p>
+<p>​		(7)这个触发器会在 Artist 表的 art_id 被修改后，自动更新 Music 表中的对应 art_id。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193050669.png" alt="image-20241212193050669"></p>
+<h2 id="九、运行界面展示"><a href="#九、运行界面展示" class="headerlink" title="九、运行界面展示"></a>九、运行界面展示</h2><h3 id="9-1用户系统"><a href="#9-1用户系统" class="headerlink" title="9.1用户系统"></a>9.1用户系统</h3><p>(1)运行系统，在浏览器输入localhost:8080即可跳转到账号登录界面，账号登录界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193140371.png" alt="image-20241212193140371"></p>
+<p>(2)首页展示轮播图和歌单资讯。轮播图可以用于展示系统快捷指令或者系统活动信息；并且展示各类热门歌单供用户选择。首页界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193155185.png" alt="image-20241212193155185"></p>
+<p>(3)歌单列表用于展示系统所有的歌单，个性化推荐给用户喜欢的歌单，歌单列表界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193201965.png" alt="image-20241212193201965"></p>
+<p>(4)歌手列表用于展示系统中所有的歌手，点击歌手可跳转到歌手的详细信息页面，歌手列表界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193212268.png" alt="image-20241212193212268"></p>
+<p>(5)点击音乐列表，可以进入对应音乐的详情界面，展示音乐图片、歌手、歌词、评论等信息，音乐详情界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193221616.png" alt="image-20241212193221616"></p>
+<p>(6)用户登录后，可以进入个人资料界面设置个人资料、修改密码等操作，个人资料界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193231918.png" alt="image-20241212193231918"></p>
+<h3 id="9-2管理系统"><a href="#9-2管理系统" class="headerlink" title="9.2管理系统"></a>9.2管理系统</h3><p>(1)后台管理首页展示统计的系统信息，比如用户数量、歌曲总数、歌手数量、用户性别比例等信息，后台管理首页界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193306920.png" alt="image-20241212193306920"></p>
+<p>(2)管理员可对用户进行管理，可批量删除用户，用户管理界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193314963.png" alt="image-20241212193314963"></p>
+<p>(3)管理员可对歌手进行管理，可以添加、修改、删除歌手，也可对歌手的歌曲进行管理，歌手管理界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193322146.png" alt="image-20241212193322146"></p>
+<p>(4)管理员可对歌单进行管理，可以添加、编辑、删除歌单，也可对歌单评论进行管理，歌单管理界面如图所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="/../images/postsImg/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/image-20241212193328853.png" alt="image-20241212193328853"></p>
+<h2 id="十、测试和维护"><a href="#十、测试和维护" class="headerlink" title="十、测试和维护"></a>十、测试和维护</h2><p>​		软件在基本完成开发后，不是立刻就会应用到市场上去。每一个软件在正式应用之前都要经过数次的测试与修改，这样才能保证上线后能够以该软件拥有足够的稳定性、能够快速上手操作、有着可以满足用户需求的功能、优美的页面留住用户，吸引用户继续使用该软件，最后实现项目的圆满完成[10]。</p>
+<p>​		对系统的测试主要是将系统全部的功能运行操作一遍或几遍以上，查看是否出错的一个操作。对系统的测试包含着功能测试和数据测试两部分。其中功能测试是检验本在线音乐网站功能是否可以正常的操作。</p>
+<p>表11-1 用户登录模块测试用例</p>
+<table>
+<thead>
+<tr>
+<th>用例编号</th>
+<th>测试用例描述</th>
+<th>操作过程及数据</th>
+<th>预期结果</th>
+<th>测试结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>N1</td>
+<td>输入正确的用户名密码</td>
+<td>遵循系统既定规则填写用户名密码后点击确定开始登录系统</td>
+<td>成功登录系统后，跳转到系统主页</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>N2</td>
+<td>输入错误的用户名密码</td>
+<td>遵循系统既定规则填写用户名密码后点击确定开始登录系统</td>
+<td>系统提示登录失败，并进入错误提示</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>N3</td>
+<td>空用户名密码</td>
+<td>遵循系统既定规则填写用户名密码后点击确定开始登录系统</td>
+<td>系统提示登录失败，并进入错误提示</td>
+<td>通过</td>
+</tr>
+</tbody></table>
+<p>表11-2 用户管理模块测试用例</p>
+<table>
+<thead>
+<tr>
+<th>用例编号</th>
+<th>测试用例描述</th>
+<th>操作过程及数据</th>
+<th>预期结果</th>
+<th>测试结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>F1</td>
+<td>录入用户信息</td>
+<td>点击添加按钮，填写用户信息，点击确定按钮</td>
+<td>提示录入成功</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>修改用户信息</td>
+<td>点击列表操作栏中的修改链接，改动信息后点击确定按钮</td>
+<td>提示修改成功，用户信息变化</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>删除用户信息</td>
+<td>点击列表操作栏中的删除链接</td>
+<td>提示删除成功，列表刷新</td>
+<td>通过</td>
+</tr>
+</tbody></table>
+<p>表11-3密码修改模块测试用例</p>
+<table>
+<thead>
+<tr>
+<th>用例编号</th>
+<th>测试用例描述</th>
+<th>操作过程及数据</th>
+<th>预期结果</th>
+<th>测试结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>T1</td>
+<td>点击修改密码，输入正确的密码</td>
+<td>按照系统流程填写密码信息后点击确定</td>
+<td>系统提示保存成功，密码保存到数据库</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>点击修改密码，输入错误的密码</td>
+<td>按照系统流程填写错误密码信息后点击确定</td>
+<td>系统报错，跳转到保存失败界面</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>T3</td>
+<td>点击修改密码，空用户名密码</td>
+<td>按照系统流程点击修改密码后，不填写直接点击确定</td>
+<td>系统报错，跳转到保存失败界面</td>
+<td>通过</td>
+</tr>
+</tbody></table>
+<p>​		测试结论，本在线音乐系统可以基本实现管理员对用户注册信息的查看、对音乐和歌手等信息的管理，用户可以根据登录名和密码登录页面，对音乐进行搜索、播放、评价等操作，数据会在修改和添加时进行同步，使得用户和管理员能够看到的信息是统一的，有效的[11]。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>​		音乐管理系统是一个完善的数据库系统。系统的业务需求包括用户管理、歌单管理、收藏管理、音乐管理和评论管理。系统的功能需求及数据需求分析包括用户模块、歌单模块、收藏模块、音乐模块和评论模块。系统的业务规则分析包括用户规则、歌单规则、收藏规则、音乐规则和评论规则。系统中一共包含了10个表，以及对应的主键与相应的外键。创建的数个存储过程、函数与触发器保障了数据库的完整性与安全性；在撰写这次大作业的过程中，我学到很多，如如何分析业务需求和数据需求，如何设计数据库表，如何确保数据库的完整性和安全性；明白了如何分析业务需求，如何更好的理解业务，如将业务转化成文字与图表与代码，最终实现业务的流程；在完成这次作业过程中我也遇到了很多问题与困难，如对于业务的不理解，导致走了很多弯路，前期方案一直改了删删了改，浪费了很多时间。如对于数据库的一些理论知识也遗忘了很多，如关系转换，ER图，第几范式等。解决方案也很简单，第一就是不断熟悉业务，多想想具体的应用场景，其次对于数据库的基础知识，也需要对其进行专门的复习与记忆，并不断在项目中实践，这将是一个长期的过程，需要不断进行。综上所述，在完成这次作业的过程中我学到了很多，虽然也遇到了很多困难，但有这些困难得到的经验与教训是十分宝贵的。我在以后的学习和工作中，也将不断总结经验，不断提高自己的能力，取得更好的成果。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1]  曾遂今.音乐网络传播与当代人的音乐观[J].中国音乐,2006(4):27-3441</p>
+<p>[2]  王梦雪.互联网音乐盈利模式新探索[J].当代经济,2016,33(7):38-39</p>
+<p>[3]  田洁.网络音乐传播的传播特性与现状研究[J].科技与创新,2020(10):42-44</p>
+<p>[4]  王珊，萨师煊，数据库系统概论（第5版），高等教育出版社，2014年。</p>
+<p>[5]  郑阿奇主编，MySQL实用教程（第3版），电子工业出版社</p>
+<p>[6]  洪学杭, 戴金波, 方权宇, 王轩宇, 刘骐嘉, 刘梦泉. 基于MySQL数据库的戒烟App的设计与研究[J].电脑编程技巧与维护, 2024, (05): 96-99+153.</p>
+<p>[7]  刘文远.基于逆向超图的从关系模式到“改进的第三范式”的分解[J].计算机工程与科学,1999,21(6):45-48</p>
+<p>[8]  贾玲.关系数据库规范化设计理论探析[J].武警学院学报,2007,23(12):87-89</p>
+<p>[9]  唐扬,熊伟,陈宏盛,景宁.数据库触发器机制的设计与实现[J].电子技术应用,2005,31(2):16-18</p>
+<p>[10] 王瑶茜,马林虹.浅析软件开发测试体系核心模块组成[J].电子制作,2012,20(10X):110-110</p>
+<p>[11] 宋婷玲.关于计算机软件开发中的数据库测试技术研究[J].信息记录材料,2024,25(3):118-120</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">附加</div><div class="post-copyright__author_desc">允许一切发生</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://example.com/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/')">X-Music音乐平台</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/12/675a4a195329a.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/12/675a4a1981afb.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://example.com/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=X-Music音乐平台&amp;url=http://example.com/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/&amp;pic=https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">附加</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Java/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Java<span class="tagsPageCount">7</span></a><a class="post-meta__box__tags" href="/tags/%E4%BD%9C%E4%B8%9A/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>作业<span class="tagsPageCount">17</span></a><a class="post-meta__box__tags" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>数据库<span class="tagsPageCount">2</span></a><a class="post-meta__box__tags" href="/tags/%E9%9F%B3%E4%B9%90/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>音乐<span class="tagsPageCount">1</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981fb9176d.jpg" onerror="onerror=null;src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">高校实习就业信息化管理系统</div></div></a></div><div class="next-post pull-right"><a href="/2024/12/04/Nginx/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" onerror="onerror=null;src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Nginx</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="高校实习就业信息化管理系统"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981fb9176d.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-06-29</div><div class="title">高校实习就业信息化管理系统</div></div></a></div><div><a href="/2023/12/23/Android%E7%84%95%E5%A3%81/" title="Android焕壁"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f85e73c.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-12-23</div><div class="title">Android焕壁</div></div></a></div><div><a href="/2024/06/15/%E6%A0%BC%E8%AE%B0--%E5%BC%95%E5%AF%BC%E5%9E%8B%E5%BC%80%E6%94%BE%E6%97%A5%E8%AE%B0/" title="格记--引导型开放日记"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981fc1fbab.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-06-15</div><div class="title">格记--引导型开放日记</div></div></a></div><div><a href="/2024/06/28/%E8%BE%9F%E9%9B%8D%E5%AD%A6%E5%BA%9CAPP/" title="辟雍学府APP"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598247d1cc1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-06-28</div><div class="title">辟雍学府APP</div></div></a></div><div><a href="/2024/12/04/Nginx/" title="Nginx"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-12-04</div><div class="title">Nginx</div></div></a></div><div><a href="/2020/12/04/Java%E5%9F%BA%E7%A1%80/" title="Java基础知识"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f84bc25.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2020-12-04</div><div class="title">Java基础知识</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div><div class="comment-tips" id="comment-tips"><span>✅ 你无需删除空行，直接评论以获取最佳展示效果</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b90eea03.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598d2676f81.jpg" alt="status"/></div></div><div class="author-info__description"><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">附加</h1><div class="author-info__desc">允许一切发生</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/fujia-233" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/32491339" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0"><span class="toc-number">1.</span> <span class="toc-text">X-Music音乐平台</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%A6%82%E8%BF%B0"><span class="toc-number">1.1.</span> <span class="toc-text">一、概述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 项目背景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E7%B3%BB%E7%BB%9F%E5%90%8D%E7%A7%B0"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 系统名称</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 开发环境</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90"><span class="toc-number">1.2.</span> <span class="toc-text">二、需求分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE"><span class="toc-number">1.3.</span> <span class="toc-text">三、系统的基础数据流图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">1.4.</span> <span class="toc-text">四、功能分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82%E5%8F%8A%E6%95%B0%E6%8D%AE%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90"><span class="toc-number">1.4.1.</span> <span class="toc-text">4.1 功能需求及数据需求分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-%E4%B8%9A%E5%8A%A1%E8%A7%84%E5%88%99%E5%88%86%E6%9E%90"><span class="toc-number">1.4.2.</span> <span class="toc-text">4.2 业务规则分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E2%80%94%E6%A6%82%E5%BF%B5%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.5.</span> <span class="toc-text">五、数据库系统设计—概念设计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#5-1-%E6%A6%82%E5%BF%B5%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.5.1.</span> <span class="toc-text">5.1 概念结构设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-2-%E6%A6%82%E5%BF%B5%E7%BB%93%E6%9E%84%E7%9A%84%E7%89%B9%E7%82%B9%E5%92%8C%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95"><span class="toc-number">1.5.2.</span> <span class="toc-text">5.2 概念结构的特点和设计方法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#5-2-1-%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83"><span class="toc-number">1.5.2.1.</span> <span class="toc-text">5.2.1 命名规范</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-2-2-%E5%AE%9E%E4%BD%93%E9%9B%86%E5%8F%8A%E5%B1%9E%E6%80%A7"><span class="toc-number">1.5.2.2.</span> <span class="toc-text">5.2.2 实体集及属性</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-3-%E7%B3%BB%E7%BB%9F%E7%9A%84E-R%E5%9B%BE"><span class="toc-number">1.5.3.</span> <span class="toc-text">5.3 系统的E-R图</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#5-3-1-%E5%AE%9E%E4%BD%93%E2%80%94%E8%81%94%E7%B3%BB%E6%96%B9%E6%B3%95-Entity-Relationship"><span class="toc-number">1.5.3.1.</span> <span class="toc-text">5.3.1 实体—联系方法(Entity-Relationship)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-3-2-E-R%E5%9B%BE%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.5.3.2.</span> <span class="toc-text">5.3.2 E-R图设计</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E2%80%94%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.6.</span> <span class="toc-text">六、数据库系统设计—逻辑结构设计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#6-1-%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.6.1.</span> <span class="toc-text">6.1 关系数据库的基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-2-E-R%E5%9B%BE%E5%90%91%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E8%BD%AC%E6%8D%A2%E7%9A%84%E5%8E%9F%E5%88%99"><span class="toc-number">1.6.2.</span> <span class="toc-text">6.2 E-R图向关系模型转换的原则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-3-%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.6.3.</span> <span class="toc-text">6.3 关系模式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#6-3-1-%E5%B0%86%E8%81%94%E7%B3%BB%E8%BD%AC%E6%8D%A2%E6%88%90%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.6.3.1.</span> <span class="toc-text">6.3.1 将联系转换成关系模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-3-2-%E5%AF%B9%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F%E8%BF%9B%E8%A1%8C%E8%A7%84%E8%8C%83%E5%8C%96"><span class="toc-number">1.6.3.2.</span> <span class="toc-text">6.3.2 对关系模式进行规范化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E2%80%94%E7%89%A9%E7%90%86%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.7.</span> <span class="toc-text">七、数据库系统设计—物理结构设计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#7-1-%E7%B3%BB%E7%BB%9F%E5%8C%85%E5%90%AB%E8%A1%A8%E7%9A%84%E7%89%A9%E7%90%86%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.7.1.</span> <span class="toc-text">7.1 系统包含表的物理结构设计</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.8.</span> <span class="toc-text">八、存储过程和触发器设计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E8%BF%90%E8%A1%8C%E7%95%8C%E9%9D%A2%E5%B1%95%E7%A4%BA"><span class="toc-number">1.9.</span> <span class="toc-text">九、运行界面展示</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#9-1%E7%94%A8%E6%88%B7%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.9.1.</span> <span class="toc-text">9.1用户系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-2%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.9.2.</span> <span class="toc-text">9.2管理系统</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E3%80%81%E6%B5%8B%E8%AF%95%E5%92%8C%E7%BB%B4%E6%8A%A4"><span class="toc-number">1.10.</span> <span class="toc-text">十、测试和维护</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.11.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="toc-number">1.12.</span> <span class="toc-text">参考文献</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/12/04/Nginx/" title="Nginx"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f917f58.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="Nginx"/></a><div class="content"><a class="title" href="/2024/12/04/Nginx/" title="Nginx">Nginx</a><time datetime="2024-12-03T16:00:00.000Z" title="发表于 2024-12-04 00:00:00">2024-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/" title="X-Music音乐平台"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981f7f41ba.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="X-Music音乐平台"/></a><div class="content"><a class="title" href="/2024/06/29/X-Music%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0/" title="X-Music音乐平台">X-Music音乐平台</a><time datetime="2024-06-28T16:00:00.000Z" title="发表于 2024-06-29 00:00:00">2024-06-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="高校实习就业信息化管理系统"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981fb9176d.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="高校实习就业信息化管理系统"/></a><div class="content"><a class="title" href="/2024/06/29/%E9%AB%98%E6%A0%A1%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="高校实习就业信息化管理系统">高校实习就业信息化管理系统</a><time datetime="2024-06-28T16:00:00.000Z" title="发表于 2024-06-29 00:00:00">2024-06-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/28/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/" title="决策树分类算法研究"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675982475d8b5.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="决策树分类算法研究"/></a><div class="content"><a class="title" href="/2024/06/28/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/" title="决策树分类算法研究">决策树分类算法研究</a><time datetime="2024-06-27T16:00:00.000Z" title="发表于 2024-06-28 00:00:00">2024-06-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/28/%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E4%B9%A6/" title="职业生涯规划书"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759824a1eb74.jpg" onerror="this.onerror=null;this.src='https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png'" alt="职业生涯规划书"/></a><div class="content"><a class="title" href="/2024/06/28/%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E4%B9%A6/" title="职业生涯规划书">职业生涯规划书</a><time datetime="2024-06-27T16:00:00.000Z" title="发表于 2024-06-28 00:00:00">2024-06-28</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="footer_deal"><a class="deal_link" target="_blank" rel="noopener" href="https://github.com/fujia-233" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://space.bilibili.com/32491339" title="Bilibili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://v.douyin.com/iDGF6jyD" title="抖音"><i class="anzhiyufont anzhiyu-icon-tiktok"></i></a><img class="footer_mini_logo" title="返回顶部" alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" size="50px"/><a class="deal_link" href="mailto:2504397114@qq.com" title="email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://weibo.com" title="微博"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://www.facebook.com" title="facebook"><i class="anzhiyufont anzhiyu-icon-facebook1"></i></a></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg" alt="本站项目由Github托管"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2023 - 2024 By <a class="footer-bar-link" href="/" title="附加" target="_blank">附加</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://image.anheyu.com" title="图床">图床</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"></a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">21</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">3</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://fujia-233.github.io" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/6759837117d69.jpg" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">应用</div><div class="back-menu-list"><a class="back-menu-item" href="/album/" title="相册集"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c7e4254b.png" alt="相册集"/><span class="back-menu-item-text">相册集</span></a><a class="back-menu-item" href="/bangumis/" title="追番页"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a7395.png" alt="追番页"/><span class="back-menu-item-text">追番页</span></a><a class="back-menu-item" href="/music/?id=893451151&amp;server=netease" title="音乐馆"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80d76f8.png" alt="音乐馆"/><span class="back-menu-item-text">音乐馆</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">我的</div><div class="back-menu-list"><a class="back-menu-item" href="/essay/" title="随记"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c815febe.png" alt="随记"/><span class="back-menu-item-text">随记</span></a><a class="back-menu-item" href="/comments/" title="留言"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/67598c80a11d8.png" alt="留言"/><span class="back-menu-item-text">留言</span></a><a class="back-menu-item" href="/about/" title="关于我"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://www.helloimg.com/i/2024/12/12/675a3b6a6bd27.png&quot;" data-lazy-src="https://www.helloimg.com/i/2024/12/11/675981a34c225.png" alt="关于我"/><span class="back-menu-item-text">关于我</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/essay/"><span> 随记</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><span> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><span> 关于我</span></a></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 0.88rem;">C语言<sup>1</sup></a><a href="/tags/Java/" style="font-size: 0.88rem;">Java<sup>7</sup></a><a href="/tags/Nginx/" style="font-size: 0.88rem;">Nginx<sup>1</sup></a><a href="/tags/Typora/" style="font-size: 0.88rem;">Typora<sup>1</sup></a><a href="/tags/Web/" style="font-size: 0.88rem;">Web<sup>1</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 0.88rem;">人工智能<sup>7</sup></a><a href="/tags/%E4%BD%9C%E4%B8%9A/" style="font-size: 0.88rem;">作业<sup>17</sup></a><a href="/tags/%E5%86%B3%E7%AD%96%E6%A0%91/" style="font-size: 0.88rem;">决策树<sup>1</sup></a><a href="/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" style="font-size: 0.88rem;">多媒体<sup>1</sup></a><a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 0.88rem;">安卓<sup>2</sup></a><a href="/tags/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" style="font-size: 0.88rem;">循环神经网络<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 0.88rem;">技术<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 0.88rem;">数据库<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 0.88rem;">数据结构<sup>1</sup></a><a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 0.88rem;">日记<sup>1</sup></a><a href="/tags/%E6%B5%8E%E5%8D%97/" style="font-size: 0.88rem;">济南<sup>1</sup></a><a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 0.88rem;">深度学习<sup>3</sup></a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 0.88rem;">算法<sup>3</sup></a><a href="/tags/%E8%81%8C%E4%B8%9A/" style="font-size: 0.88rem;">职业<sup>1</sup></a><a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 0.88rem;">论文<sup>1</sup></a><a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 0.88rem;">音乐<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("01/01/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2023 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 附加 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><script>(() => {
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      onCommentLoaded: () => {
+        anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(runFn,0)
+    else getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const runFn = () => {
+    init();
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else {
+      loadTwikoo()
+    }
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://lucent-phoenix-95de8f.netlify.app/.netlify/functions/twikoo',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script async data-pjax src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.1/bubble/bubble.js"></script><script>var visitorMail = "404@qq.com";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script id="click-heart" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/click-heart.min.js" async="async" mobile="false"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
